@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.012058] (laser_filters) JobQueued: {'identifier': 'laser_filters', 'dependencies': OrderedDict({'laser_filters': '/home/amr-pc/amr_ws/install/laser_filters'})}
+[0.012207] (laser_filters) JobStarted: {'identifier': 'laser_filters'}
+[0.058563] (laser_filters) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/amr-pc/amr_ws/build/laser_filters', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/amr-pc/amr_ws', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'USER': 'amr-pc', 'SNAP_COMMON': '/var/snap/code/common', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/255/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/amr-pc/snap/code/common/.cache/gio-modules', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'DEBUG': 'release', 'SNAP_UID': '1000', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/amr-pc/amr_ws/install/laser_filters/lib:/home/amr-pc/amr_ws/install/panthera_interfaces/lib:/home/amr-pc/amr_ws/install/panthera_hardware/lib:/home/amr-pc/amr_ws/install/hightorque_robot/lib:/home/amr-pc/amr_ws/install/amr_hardware/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amr-pc', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32', 'OLDPWD': '/home/amr-pc', 'DESKTOP_SESSION': 'ubuntu', 'SNAP_USER_DATA': '/home/amr-pc/snap/code/255', 'GTK_PATH': '/snap/code/255/usr/lib/x86_64-linux-gnu/gtk-3.0', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-d64c12c6-1.13-main.sock', 'GTK_IM_MODULE_FILE': '/home/amr-pc/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '4548', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SNAP_REVISION': '255', 'COLORTERM': 'truecolor', '_CONDA_ROOT': '/home/amr-pc/miniconda3', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/amr-pc/amr_ws/install', 'CODEX_PERMISSION_PROFILE': ':workspace', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amr-pc', 'SNAP_CONTEXT': 'UtrUyl9iT79malHw0FUKv0k2WR85PdAAFPRcmKHQOJMWanKKkp-S', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'SNAP_VERSION': 'df53daab', 'CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS': '1', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'RUST_LOG': 'warn', 'USERNAME': 'amr-pc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SNAP_INSTANCE_NAME': 'code', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/amr-pc/.codex/tmp/arg0/codex-arg0UHvM01:/home/amr-pc/amr_ws/install/hightorque_robot/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/amr-pc/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amr-pc/.vscode/extensions/openai.chatgpt-26.1007.21434-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/robot-pc:@/tmp/.ICE-unix/4524,unix/robot-pc:/tmp/.ICE-unix/4524', 'CODEX_VERSION': '0.162.0-alpha.17.2', 'GTK_EXE_PREFIX': '/snap/code/255/usr', 'CODEX_SESSION_ID': '01a12f64-9376-7463-8e0b-292b7b66f93b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/30969d00_ccd9_4f50_821c_d556fb3ee51a', 'SNAP_DATA': '/var/snap/code/255', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/255/usr/lib/locale', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_DATA_HOME': '/home/amr-pc/snap/code/255/.local/share', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SNAP_USER_COMMON': '/home/amr-pc/snap/code/common', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/amr-pc/snap/code/255/.local/share/glib-2.0/schemas', 'SNAP_ARCH': 'amd64', 'AMENT_PREFIX_PATH': '/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_commander:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_arm_control:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/laser_filters:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy', 'SNAP_COOKIE': 'UtrUyl9iT79malHw0FUKv0k2WR85PdAAFPRcmKHQOJMWanKKkp-S', 'CONDA_PYTHON_EXE': '/home/amr-pc/miniconda3/bin/python', 'SHELL': '/bin/bash', 'GDK_PIXBUF_MODULEDIR': '/snap/code/255/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'SNAP_NAME': 'code', 'CODEX_THREAD_ID': '01a12f64-9376-7463-8e0b-292b7b66f93b', 'GDK_PIXBUF_MODULE_FILE': '/home/amr-pc/snap/code/common/.cache/gdk-pixbuf-loaders.cache', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/amr-pc/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SNAP_LAUNCHER_ARCH_TRIPLET': 'x86_64-linux-gnu', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/amr-pc/amr_ws/build/laser_filters', 'VSCODE_CLI': '1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/amr-pc/miniconda3/bin/conda', 'SNAP_REAL_HOME': '/home/amr-pc', 'VSCODE_CODE_CACHE_PATH': '/home/amr-pc/.config/Code/CachedData/df53daabb18cd157bdb08c7f01c34df936cf12f4', 'XDG_DATA_DIRS': '/home/amr-pc/snap/code/255/.local/share:/home/amr-pc/snap/code/255:/snap/code/255/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'SNAP_EUID': '1000', 'PYTHONPATH': '/home/amr-pc/amr_ws/build/bringups:/home/amr-pc/amr_ws/install/bringups/lib/python3.12/site-packages:/home/amr-pc/amr_ws/install/panthera_interfaces/lib/python3.12/site-packages:/home/amr-pc/amr_ws/build/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/keyboard_cmd_vel/lib/python3.12/site-packages:/home/amr-pc/amr_ws/build/amr_project:/home/amr-pc/amr_ws/install/amr_project/lib/python3.12/site-packages:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'SNAP': '/snap/code/255', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'ELECTRON_NO_ATTACH_CONSOLE': '1', 'CMAKE_PREFIX_PATH': '/home/amr-pc/amr_ws/install/laser_filters:/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_commander:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_arm_control:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'VSCODE_PID': '5690'}), 'shell': False}
+[0.066898] (laser_filters) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/amr-pc/amr_ws/build/laser_filters/CTestConfiguration.ini\n'}
+[0.067079] (laser_filters) StdoutLine: {'line': b'Parse Config file:/home/amr-pc/amr_ws/build/laser_filters/CTestConfiguration.ini\n'}
+[0.067176] (laser_filters) StdoutLine: {'line': b'   Site: robot-pc\n'}
+[0.067322] (laser_filters) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.067513] (laser_filters) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.067630] (laser_filters) StdoutLine: {'line': b'Create new tag: 20261012-0916 - Experimental\n'}
+[0.067706] (laser_filters) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/amr-pc/amr_ws/build/laser_filters/CTestConfiguration.ini\n'}
+[0.067779] (laser_filters) StdoutLine: {'line': b'Parse Config file:/home/amr-pc/amr_ws/build/laser_filters/CTestConfiguration.ini\n'}
+[0.067891] (laser_filters) StdoutLine: {'line': b'Test project /home/amr-pc/amr_ws/build/laser_filters\n'}
+[0.068002] (laser_filters) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.068135] (laser_filters) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.068179] (laser_filters) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.068214] (laser_filters) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.068249] (laser_filters) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.068284] (laser_filters) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.068340] (laser_filters) StdoutLine: {'line': b'test 1\n'}
+[0.068446] (laser_filters) StdoutLine: {'line': b'    Start 1: test_scan_filter_chain\n'}
+[0.068522] (laser_filters) StdoutLine: {'line': b'\n'}
+[0.068565] (laser_filters) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_scan_filter_chain" "--ros-args" "--params-file" "/home/amr-pc/amr_ws/src/laser_filters/test/test_scan_filter_chain.yaml" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml"\n'}
+[0.068605] (laser_filters) StdoutLine: {'line': b'1: Working Directory: /home/amr-pc/amr_ws/build/laser_filters\n'}
+[0.068904] (laser_filters) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.099837] (-) TimerEvent: {}
+[0.113381] (laser_filters) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':\n"}
+[0.113612] (laser_filters) StdoutLine: {'line': b'1:  - /home/amr-pc/amr_ws/build/laser_filters/test_scan_filter_chain --ros-args --params-file /home/amr-pc/amr_ws/src/laser_filters/test/test_scan_filter_chain.yaml --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml\n'}
+[0.180540] (laser_filters) StdoutLine: {'line': b"1: terminate called after throwing an instance of 'spdlog::spdlog_ex'\n"}
+[0.180730] (laser_filters) StdoutLine: {'line': b'1:   what():  Failed opening file /home/amr-pc/.ros/log/test_scan_filter_chain_14_1791796577461.log for writing: Read-only file system\n'}
+[0.199935] (-) TimerEvent: {}
+[0.264746] (laser_filters) StdoutLine: {'line': b'1: -- run_test.py: return code -6\n'}
+[0.265046] (laser_filters) StdoutLine: {'line': b"1: -- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml' with failed test\n"}
+[0.265145] (laser_filters) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml'\n"}
+[0.272492] (laser_filters) StdoutLine: {'line': b'1/7 Test #1: test_scan_filter_chain .............***Failed    0.20 sec\n'}
+[0.272723] (laser_filters) StdoutLine: {'line': b'test 2\n'}
+[0.272781] (laser_filters) StdoutLine: {'line': b'    Start 2: test_shadow_detector\n'}
+[0.272842] (laser_filters) StdoutLine: {'line': b'\n'}
+[0.272893] (laser_filters) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_shadow_detector" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml"\n'}
+[0.272955] (laser_filters) StdoutLine: {'line': b'2: Working Directory: /home/amr-pc/amr_ws/build/laser_filters\n'}
+[0.273011] (laser_filters) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.300037] (-) TimerEvent: {}
+[0.314229] (laser_filters) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':\n"}
+[0.314403] (laser_filters) StdoutLine: {'line': b'2:  - /home/amr-pc/amr_ws/build/laser_filters/test_shadow_detector --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml\n'}
+[0.316013] (laser_filters) StdoutLine: {'line': b'2: [==========] Running 1 test from 1 test suite.\n'}
+[0.316069] (laser_filters) StdoutLine: {'line': b'2: [----------] Global test environment set-up.\n'}
+[0.316126] (laser_filters) StdoutLine: {'line': b'2: [----------] 1 test from ScanShadowDetector\n'}
+[0.316180] (laser_filters) StdoutLine: {'line': b'2: [ RUN      ] ScanShadowDetector.ShadowDetectionGeometry\n'}
+[0.327755] (laser_filters) StdoutLine: {'line': b'2: [       OK ] ScanShadowDetector.ShadowDetectionGeometry (11 ms)\n'}
+[0.327973] (laser_filters) StdoutLine: {'line': b'2: [----------] 1 test from ScanShadowDetector (11 ms total)\n'}
+[0.328117] (laser_filters) StdoutLine: {'line': b'2: \n'}
+[0.328263] (laser_filters) StdoutLine: {'line': b'2: [----------] Global test environment tear-down\n'}
+[0.328441] (laser_filters) StdoutLine: {'line': b'2: [==========] 1 test from 1 test suite ran. (11 ms total)\n'}
+[0.328519] (laser_filters) StdoutLine: {'line': b'2: [  PASSED  ] 1 test.\n'}
+[0.328562] (laser_filters) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.328619] (laser_filters) StdoutLine: {'line': b"2: -- run_test.py: inject classname prefix into gtest result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml'\n"}
+[0.328656] (laser_filters) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml'\n"}
+[0.336949] (laser_filters) StdoutLine: {'line': b'2/7 Test #2: test_shadow_detector ...............   Passed    0.06 sec\n'}
+[0.337128] (laser_filters) StdoutLine: {'line': b'test 3\n'}
+[0.337174] (laser_filters) StdoutLine: {'line': b'    Start 3: test_speckle_filter\n'}
+[0.337222] (laser_filters) StdoutLine: {'line': b'\n'}
+[0.337260] (laser_filters) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_speckle_filter" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml"\n'}
+[0.337314] (laser_filters) StdoutLine: {'line': b'3: Working Directory: /home/amr-pc/amr_ws/build/laser_filters\n'}
+[0.337364] (laser_filters) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.379302] (laser_filters) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':\n"}
+[0.379508] (laser_filters) StdoutLine: {'line': b'3:  - /home/amr-pc/amr_ws/build/laser_filters/test_speckle_filter --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml\n'}
+[0.400126] (-) TimerEvent: {}
+[0.444948] (laser_filters) StdoutLine: {'line': b"3: terminate called after throwing an instance of 'spdlog::spdlog_ex'\n"}
+[0.445205] (laser_filters) StdoutLine: {'line': b'3:   what():  Failed opening file /home/amr-pc/.ros/log/test_speckle_filter_22_1791796577725.log for writing: Read-only file system\n'}
+[0.500210] (-) TimerEvent: {}
+[0.523842] (laser_filters) StdoutLine: {'line': b'3: -- run_test.py: return code -6\n'}
+[0.524050] (laser_filters) StdoutLine: {'line': b"3: -- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml' with failed test\n"}
+[0.524130] (laser_filters) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml'\n"}
+[0.531919] (laser_filters) StdoutLine: {'line': b'3/7 Test #3: test_speckle_filter ................***Failed    0.19 sec\n'}
+[0.532152] (laser_filters) StdoutLine: {'line': b'test 4\n'}
+[0.532230] (laser_filters) StdoutLine: {'line': b'    Start 4: test_scan_shadows_filter\n'}
+[0.532298] (laser_filters) StdoutLine: {'line': b'\n'}
+[0.532374] (laser_filters) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_scan_shadows_filter" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml"\n'}
+[0.532506] (laser_filters) StdoutLine: {'line': b'4: Working Directory: /home/amr-pc/amr_ws/build/laser_filters\n'}
+[0.532571] (laser_filters) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.574984] (laser_filters) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':\n"}
+[0.575206] (laser_filters) StdoutLine: {'line': b'4:  - /home/amr-pc/amr_ws/build/laser_filters/test_scan_shadows_filter --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml\n'}
+[0.600319] (-) TimerEvent: {}
+[0.639357] (laser_filters) StdoutLine: {'line': b"4: terminate called after throwing an instance of 'spdlog::spdlog_ex'\n"}
+[0.639559] (laser_filters) StdoutLine: {'line': b'4:   what():  Failed opening file /home/amr-pc/.ros/log/test_scan_shadows_filter_26_1791796577920.log for writing: Read-only file system\n'}
+[0.700419] (-) TimerEvent: {}
+[0.728050] (laser_filters) StdoutLine: {'line': b'4: -- run_test.py: return code -6\n'}
+[0.728297] (laser_filters) StdoutLine: {'line': b"4: -- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml' with failed test\n"}
+[0.728378] (laser_filters) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml'\n"}
+[0.734448] (laser_filters) StdoutLine: {'line': b'4/7 Test #4: test_scan_shadows_filter ...........***Failed    0.20 sec\n'}
+[0.734688] (laser_filters) StdoutLine: {'line': b'test 5\n'}
+[0.734762] (laser_filters) StdoutLine: {'line': b'    Start 5: test_angular_bounds_filter\n'}
+[0.734850] (laser_filters) StdoutLine: {'line': b'\n'}
+[0.734949] (laser_filters) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_angular_bounds_filter" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml"\n'}
+[0.735061] (laser_filters) StdoutLine: {'line': b'5: Working Directory: /home/amr-pc/amr_ws/build/laser_filters\n'}
+[0.735174] (laser_filters) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[0.775946] (laser_filters) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':\n"}
+[0.776182] (laser_filters) StdoutLine: {'line': b'5:  - /home/amr-pc/amr_ws/build/laser_filters/test_angular_bounds_filter --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml\n'}
+[0.800533] (-) TimerEvent: {}
+[0.843224] (laser_filters) StdoutLine: {'line': b"5: terminate called after throwing an instance of 'spdlog::spdlog_ex'\n"}
+[0.843426] (laser_filters) StdoutLine: {'line': b'5:   what():  Failed opening file /home/amr-pc/.ros/log/test_angular_bounds_filter_30_1791796578124.log for writing: Read-only file system\n'}
+[0.900613] (-) TimerEvent: {}
+[0.921342] (laser_filters) StdoutLine: {'line': b'5: -- run_test.py: return code -6\n'}
+[0.921627] (laser_filters) StdoutLine: {'line': b"5: -- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml' with failed test\n"}
+[0.921782] (laser_filters) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml'\n"}
+[0.928522] (laser_filters) StdoutLine: {'line': b'5/7 Test #5: test_angular_bounds_filter .........***Failed    0.19 sec\n'}
+[0.928746] (laser_filters) StdoutLine: {'line': b'test 6\n'}
+[0.928821] (laser_filters) StdoutLine: {'line': b'    Start 6: test_test_polygon_filter.test.py\n'}
+[0.928890] (laser_filters) StdoutLine: {'line': b'\n'}
+[0.928953] (laser_filters) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml" "--package-name" "laser_filters" "--output-file" "/home/amr-pc/amr_ws/build/laser_filters/launch_test/test_test_polygon_filter.test.py.txt" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/amr-pc/amr_ws/src/laser_filters/test/test_polygon_filter.test.py" "--junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml" "--package-name=laser_filters"\n'}
+[0.929029] (laser_filters) StdoutLine: {'line': b'6: Working Directory: /home/amr-pc/amr_ws/build/laser_filters\n'}
+[0.929093] (laser_filters) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[0.970788] (laser_filters) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':\n"}
+[0.970913] (laser_filters) StdoutLine: {'line': b'6:  - /usr/bin/python3 -m launch_testing.launch_test /home/amr-pc/amr_ws/src/laser_filters/test/test_polygon_filter.test.py --junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml --package-name=laser_filters\n'}
+[1.000717] (-) TimerEvent: {}
+[1.100883] (-) TimerEvent: {}
+[1.201032] (-) TimerEvent: {}
+[1.301220] (-) TimerEvent: {}
+[1.319263] (laser_filters) StdoutLine: {'line': b'6: usage: launch_test.py [-h] [--package-name PACKAGE_NAME] [-v] [-s]\n'}
+[1.319489] (laser_filters) StdoutLine: {'line': b'6:                       [--junit-xml XMLPATH]\n'}
+[1.319571] (laser_filters) StdoutLine: {'line': b'6:                       launch_test_file [launch_arguments ...]\n'}
+[1.319638] (laser_filters) StdoutLine: {'line': b"6: launch_test.py: error: [Errno 30] Read-only file system: '/home/amr-pc/.ros/log/2026-10-12-12-16-18-635919-robot-pc-34'\n"}
+[1.366909] (laser_filters) StdoutLine: {'line': b'6: -- run_test.py: return code 2\n'}
+[1.367131] (laser_filters) StdoutLine: {'line': b"6: -- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml' with failed test\n"}
+[1.367275] (laser_filters) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml'\n"}
+[1.373659] (laser_filters) StdoutLine: {'line': b'6/7 Test #6: test_test_polygon_filter.test.py ...***Failed    0.44 sec\n'}
+[1.373917] (laser_filters) StdoutLine: {'line': b'test 7\n'}
+[1.374021] (laser_filters) StdoutLine: {'line': b'    Start 7: test_test_speckle_filter.test.py\n'}
+[1.374112] (laser_filters) StdoutLine: {'line': b'\n'}
+[1.374188] (laser_filters) StdoutLine: {'line': b'7: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml" "--package-name" "laser_filters" "--output-file" "/home/amr-pc/amr_ws/build/laser_filters/launch_test/test_test_speckle_filter.test.py.txt" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.test.py" "--junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml" "--package-name=laser_filters"\n'}
+[1.374262] (laser_filters) StdoutLine: {'line': b'7: Working Directory: /home/amr-pc/amr_ws/build/laser_filters\n'}
+[1.374327] (laser_filters) StdoutLine: {'line': b'7: Test timeout computed to be: 60\n'}
+[1.401318] (-) TimerEvent: {}
+[1.415979] (laser_filters) StdoutLine: {'line': b"7: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':\n"}
+[1.416192] (laser_filters) StdoutLine: {'line': b'7:  - /usr/bin/python3 -m launch_testing.launch_test /home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.test.py --junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml --package-name=laser_filters\n'}
+[1.501410] (-) TimerEvent: {}
+[1.601596] (-) TimerEvent: {}
+[1.701765] (-) TimerEvent: {}
+[1.749390] (laser_filters) StdoutLine: {'line': b'7: usage: launch_test.py [-h] [--package-name PACKAGE_NAME] [-v] [-s]\n'}
+[1.749568] (laser_filters) StdoutLine: {'line': b'7:                       [--junit-xml XMLPATH]\n'}
+[1.749646] (laser_filters) StdoutLine: {'line': b'7:                       launch_test_file [launch_arguments ...]\n'}
+[1.749717] (laser_filters) StdoutLine: {'line': b"7: launch_test.py: error: [Errno 30] Read-only file system: '/home/amr-pc/.ros/log/2026-10-12-12-16-19-066602-robot-pc-38'\n"}
+[1.795306] (laser_filters) StdoutLine: {'line': b'7: -- run_test.py: return code 2\n'}
+[1.795545] (laser_filters) StdoutLine: {'line': b"7: -- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml' with failed test\n"}
+[1.795628] (laser_filters) StdoutLine: {'line': b"7: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml'\n"}
+[1.801871] (-) TimerEvent: {}
+[1.802863] (laser_filters) StdoutLine: {'line': b'7/7 Test #7: test_test_speckle_filter.test.py ...***Failed    0.43 sec\n'}
+[1.803122] (laser_filters) StdoutLine: {'line': b'\n'}
+[1.803249] (laser_filters) StdoutLine: {'line': b'14% tests passed, 6 tests failed out of 7\n'}
+[1.803338] (laser_filters) StdoutLine: {'line': b'\n'}
+[1.803536] (laser_filters) StdoutLine: {'line': b'Label Time Summary:\n'}
+[1.803588] (laser_filters) StdoutLine: {'line': b'launch_test    =   0.87 sec*proc (2 tests)\n'}
+[1.803633] (laser_filters) StdoutLine: {'line': b'\n'}
+[1.803686] (laser_filters) StdoutLine: {'line': b'Total Test time (real) =   1.74 sec\n'}
+[1.803737] (laser_filters) StdoutLine: {'line': b'\n'}
+[1.803787] (laser_filters) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[1.803839] (laser_filters) StdoutLine: {'line': b'\t  1 - test_scan_filter_chain (Failed)\n'}
+[1.803888] (laser_filters) StdoutLine: {'line': b'\t  3 - test_speckle_filter (Failed)\n'}
+[1.803947] (laser_filters) StdoutLine: {'line': b'\t  4 - test_scan_shadows_filter (Failed)\n'}
+[1.804011] (laser_filters) StdoutLine: {'line': b'\t  5 - test_angular_bounds_filter (Failed)\n'}
+[1.804075] (laser_filters) StdoutLine: {'line': b'\t  6 - test_test_polygon_filter.test.py (Failed)\n'}
+[1.804142] (laser_filters) StdoutLine: {'line': b'\t  7 - test_test_speckle_filter.test.py (Failed)\n'}
+[1.805729] (laser_filters) StderrLine: {'line': b'Errors while running CTest\n'}
+[1.805892] (laser_filters) StderrLine: {'line': b'Output from these tests are in: /home/amr-pc/amr_ws/build/laser_filters/Testing/Temporary/LastTest.log\n'}
+[1.805946] (laser_filters) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[1.808028] (laser_filters) CommandEnded: {'returncode': 8}
+[1.808354] (laser_filters) TestFailure: {'identifier': 'laser_filters'}
+[1.808380] (laser_filters) JobEnded: {'identifier': 'laser_filters', 'rc': 0}
+[1.808828] (-) EventReactorShutdown: {}

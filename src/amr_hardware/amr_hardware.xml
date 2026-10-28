@@ -1,0 +1,10 @@
+<library path="amr_hardware">
+  <class
+    name="amr_hardware/DiffDriveSystem"
+    type="amr_hardware::DiffDriveSystem"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Differential-drive AMR hardware interface for ros2_control.
+    </description>
+  </class>
+</library>

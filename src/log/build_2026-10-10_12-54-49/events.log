@@ -1,0 +1,348 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (-) JobUnselected: {'identifier': 'amr_hardware'}
+[0.000145] (-) JobUnselected: {'identifier': 'amr_project'}
+[0.000162] (-) JobUnselected: {'identifier': 'bringups'}
+[0.000174] (-) JobUnselected: {'identifier': 'hightorque_robot'}
+[0.000187] (-) JobUnselected: {'identifier': 'keyboard_cmd_vel'}
+[0.000198] (-) JobUnselected: {'identifier': 'panthera_arm_control'}
+[0.000208] (-) JobUnselected: {'identifier': 'panthera_bringup'}
+[0.000219] (-) JobUnselected: {'identifier': 'panthera_commander'}
+[0.000230] (-) JobUnselected: {'identifier': 'panthera_gazebo'}
+[0.000241] (-) JobUnselected: {'identifier': 'panthera_hardware'}
+[0.000251] (-) JobUnselected: {'identifier': 'panthera_ht_description_with_finger'}
+[0.000263] (-) JobUnselected: {'identifier': 'panthera_interfaces'}
+[0.000273] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000284] (-) JobUnselected: {'identifier': 'urdf_tutorial'}
+[0.000294] (-) JobUnselected: {'identifier': 'with_gripper_config'}
+[0.000306] (laser_filters) JobQueued: {'identifier': 'laser_filters', 'dependencies': OrderedDict()}
+[0.000321] (laser_filters) JobStarted: {'identifier': 'laser_filters'}
+[0.006447] (laser_filters) JobProgress: {'identifier': 'laser_filters', 'progress': 'cmake'}
+[0.006916] (laser_filters) Command: {'cmd': ['/usr/bin/cmake', '/home/amr-pc/amr_ws/src/laser_filters', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/amr-pc/amr_ws/src/install/laser_filters'], 'cwd': '/home/amr-pc/amr_ws/src/build/laser_filters', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'amr-pc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/amr-pc/amr_ws/install/panthera_interfaces/lib:/home/amr-pc/amr_ws/install/panthera_hardware/lib:/home/amr-pc/amr_ws/install/hightorque_robot/lib:/home/amr-pc/amr_ws/install/amr_hardware/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amr-pc', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/amr-pc/amr_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4246', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/amr-pc/miniconda3', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/amr-pc/amr_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amr-pc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'amr-pc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/amr-pc/amr_ws/install/hightorque_robot/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/amr-pc/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robot-pc:@/tmp/.ICE-unix/4038,unix/robot-pc:/tmp/.ICE-unix/4038', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/92a89de8_923b_4dc0_9fd0_4e09b33d748a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/amr-pc/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/amr-pc/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/amr-pc/amr_ws/src/build/laser_filters', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/amr-pc/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amr-pc/amr_ws/build/bringups:/home/amr-pc/amr_ws/install/bringups/lib/python3.12/site-packages:/home/amr-pc/amr_ws/install/panthera_interfaces/lib/python3.12/site-packages:/home/amr-pc/amr_ws/build/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/keyboard_cmd_vel/lib/python3.12/site-packages:/home/amr-pc/amr_ws/build/amr_project:/home/amr-pc/amr_ws/install/amr_project/lib/python3.12/site-packages:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy'}), 'shell': False}
+[0.067871] (laser_filters) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099547] (-) TimerEvent: {}
+[0.109736] (laser_filters) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.123326] (laser_filters) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.190805] (laser_filters) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.195913] (laser_filters) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.196056] (laser_filters) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.196317] (laser_filters) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.199630] (-) TimerEvent: {}
+[0.204094] (laser_filters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.279676] (laser_filters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.284947] (laser_filters) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.285142] (laser_filters) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.285414] (laser_filters) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.288076] (laser_filters) StdoutLine: {'line': b'-- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)\n'}
+[0.299691] (-) TimerEvent: {}
+[0.395683] (laser_filters) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.399767] (-) TimerEvent: {}
+[0.441240] (laser_filters) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.499856] (-) TimerEvent: {}
+[0.572107] (laser_filters) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.583277] (laser_filters) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.595930] (laser_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.599943] (-) TimerEvent: {}
+[0.610087] (laser_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.694738] (laser_filters) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.697715] (laser_filters) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700035] (-) TimerEvent: {}
+[0.770909] (laser_filters) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.783978] (laser_filters) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.799153] (laser_filters) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800127] (-) TimerEvent: {}
+[0.900303] (-) TimerEvent: {}
+[0.977621] (laser_filters) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.978311] (laser_filters) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.978414] (laser_filters) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.000378] (-) TimerEvent: {}
+[1.055726] (laser_filters) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/laser_filters` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[1.063161] (laser_filters) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[1.065907] (laser_filters) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.067574] (laser_filters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100478] (-) TimerEvent: {}
+[1.134268] (laser_filters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.134871] (laser_filters) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.144208] (laser_filters) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 3.4.12 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)\n'}
+[1.146538] (laser_filters) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.200581] (-) TimerEvent: {}
+[1.239491] (laser_filters) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[1.240136] (laser_filters) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.278526] (laser_filters) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.290493] (laser_filters) StdoutLine: {'line': b'-- Build files have been written to: /home/amr-pc/amr_ws/src/build/laser_filters\n'}
+[1.300640] (-) TimerEvent: {}
+[1.301729] (laser_filters) CommandEnded: {'returncode': 0}
+[1.302179] (laser_filters) JobProgress: {'identifier': 'laser_filters', 'progress': 'build'}
+[1.302713] (laser_filters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amr-pc/amr_ws/src/build/laser_filters', '--', '-j16', '-l16'], 'cwd': '/home/amr-pc/amr_ws/src/build/laser_filters', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'amr-pc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/amr-pc/amr_ws/install/panthera_interfaces/lib:/home/amr-pc/amr_ws/install/panthera_hardware/lib:/home/amr-pc/amr_ws/install/hightorque_robot/lib:/home/amr-pc/amr_ws/install/amr_hardware/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amr-pc', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/amr-pc/amr_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4246', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/amr-pc/miniconda3', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/amr-pc/amr_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amr-pc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'amr-pc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/amr-pc/amr_ws/install/hightorque_robot/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/amr-pc/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robot-pc:@/tmp/.ICE-unix/4038,unix/robot-pc:/tmp/.ICE-unix/4038', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/92a89de8_923b_4dc0_9fd0_4e09b33d748a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/amr-pc/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/amr-pc/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/amr-pc/amr_ws/src/build/laser_filters', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/amr-pc/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amr-pc/amr_ws/build/bringups:/home/amr-pc/amr_ws/install/bringups/lib/python3.12/site-packages:/home/amr-pc/amr_ws/install/panthera_interfaces/lib/python3.12/site-packages:/home/amr-pc/amr_ws/build/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/keyboard_cmd_vel/lib/python3.12/site-packages:/home/amr-pc/amr_ws/build/amr_project:/home/amr-pc/amr_ws/install/amr_project/lib/python3.12/site-packages:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy'}), 'shell': False}
+[1.343534] (laser_filters) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/scan_to_scan_filter_chain.dir/rclcpp_components/node_main_scan_to_scan_filter_chain.cpp.o\x1b[0m\n'}
+[1.343698] (laser_filters) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/laser_scan_filters.cpp.o\x1b[0m\n'}
+[1.343758] (laser_filters) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/scan_to_cloud_filter_chain.dir/rclcpp_components/node_main_scan_to_cloud_filter_chain.cpp.o\x1b[0m\n'}
+[1.343802] (laser_filters) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.343846] (laser_filters) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.400781] (-) TimerEvent: {}
+[1.501049] (-) TimerEvent: {}
+[1.601280] (-) TimerEvent: {}
+[1.701524] (-) TimerEvent: {}
+[1.801816] (-) TimerEvent: {}
+[1.832943] (laser_filters) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.884361] (laser_filters) StdoutLine: {'line': b'[ 24%] Built target gtest_main\n'}
+[1.901892] (-) TimerEvent: {}
+[2.002143] (-) TimerEvent: {}
+[2.102390] (-) TimerEvent: {}
+[2.202667] (-) TimerEvent: {}
+[2.302943] (-) TimerEvent: {}
+[2.403226] (-) TimerEvent: {}
+[2.503464] (-) TimerEvent: {}
+[2.603744] (-) TimerEvent: {}
+[2.703989] (-) TimerEvent: {}
+[2.804241] (-) TimerEvent: {}
+[2.904511] (-) TimerEvent: {}
+[3.004763] (-) TimerEvent: {}
+[3.105021] (-) TimerEvent: {}
+[3.205258] (-) TimerEvent: {}
+[3.305486] (-) TimerEvent: {}
+[3.374032] (laser_filters) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX executable scan_to_scan_filter_chain\x1b[0m\n'}
+[3.391483] (laser_filters) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX executable scan_to_cloud_filter_chain\x1b[0m\n'}
+[3.405570] (-) TimerEvent: {}
+[3.467560] (laser_filters) StdoutLine: {'line': b'[ 32%] Built target scan_to_scan_filter_chain\n'}
+[3.478013] (laser_filters) StdoutLine: {'line': b'[ 32%] Built target scan_to_cloud_filter_chain\n'}
+[3.505692] (-) TimerEvent: {}
+[3.553528] (laser_filters) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[3.605811] (-) TimerEvent: {}
+[3.620671] (laser_filters) StdoutLine: {'line': b'[ 36%] Built target gtest\n'}
+[3.638764] (laser_filters) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/test_scan_filter_chain.dir/test/test_scan_filter_chain.cpp.o\x1b[0m\n'}
+[3.705913] (-) TimerEvent: {}
+[3.806152] (-) TimerEvent: {}
+[3.906372] (-) TimerEvent: {}
+[4.006620] (-) TimerEvent: {}
+[4.106883] (-) TimerEvent: {}
+[4.207153] (-) TimerEvent: {}
+[4.307380] (-) TimerEvent: {}
+[4.407603] (-) TimerEvent: {}
+[4.507839] (-) TimerEvent: {}
+[4.608072] (-) TimerEvent: {}
+[4.708313] (-) TimerEvent: {}
+[4.809067] (-) TimerEvent: {}
+[4.909299] (-) TimerEvent: {}
+[5.009575] (-) TimerEvent: {}
+[5.109796] (-) TimerEvent: {}
+[5.210069] (-) TimerEvent: {}
+[5.310305] (-) TimerEvent: {}
+[5.410536] (-) TimerEvent: {}
+[5.510784] (-) TimerEvent: {}
+[5.611026] (-) TimerEvent: {}
+[5.711259] (-) TimerEvent: {}
+[5.811505] (-) TimerEvent: {}
+[5.911772] (-) TimerEvent: {}
+[6.012040] (-) TimerEvent: {}
+[6.112270] (-) TimerEvent: {}
+[6.212544] (-) TimerEvent: {}
+[6.312779] (-) TimerEvent: {}
+[6.413004] (-) TimerEvent: {}
+[6.513260] (-) TimerEvent: {}
+[6.614064] (-) TimerEvent: {}
+[6.714274] (-) TimerEvent: {}
+[6.814506] (-) TimerEvent: {}
+[6.914757] (-) TimerEvent: {}
+[7.015009] (-) TimerEvent: {}
+[7.115232] (-) TimerEvent: {}
+[7.215445] (-) TimerEvent: {}
+[7.315656] (-) TimerEvent: {}
+[7.415890] (-) TimerEvent: {}
+[7.516124] (-) TimerEvent: {}
+[7.522994] (laser_filters) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable test_scan_filter_chain\x1b[0m\n'}
+[7.616245] (-) TimerEvent: {}
+[7.708059] (laser_filters) StdoutLine: {'line': b'[ 44%] Built target test_scan_filter_chain\n'}
+[7.716328] (-) TimerEvent: {}
+[7.816561] (-) TimerEvent: {}
+[7.916772] (-) TimerEvent: {}
+[8.017026] (-) TimerEvent: {}
+[8.117234] (-) TimerEvent: {}
+[8.217489] (-) TimerEvent: {}
+[8.317743] (-) TimerEvent: {}
+[8.417954] (-) TimerEvent: {}
+[8.518184] (-) TimerEvent: {}
+[8.618394] (-) TimerEvent: {}
+[8.718603] (-) TimerEvent: {}
+[8.819006] (-) TimerEvent: {}
+[8.919210] (-) TimerEvent: {}
+[9.019410] (-) TimerEvent: {}
+[9.119619] (-) TimerEvent: {}
+[9.219881] (-) TimerEvent: {}
+[9.320128] (-) TimerEvent: {}
+[9.420395] (-) TimerEvent: {}
+[9.520615] (-) TimerEvent: {}
+[9.620876] (-) TimerEvent: {}
+[9.721106] (-) TimerEvent: {}
+[9.821323] (-) TimerEvent: {}
+[9.921557] (-) TimerEvent: {}
+[10.021790] (-) TimerEvent: {}
+[10.122040] (-) TimerEvent: {}
+[10.192050] (laser_filters) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library liblaser_scan_filters.so\x1b[0m\n'}
+[10.222137] (-) TimerEvent: {}
+[10.322365] (-) TimerEvent: {}
+[10.422586] (-) TimerEvent: {}
+[10.522824] (-) TimerEvent: {}
+[10.543065] (laser_filters) StdoutLine: {'line': b'[ 48%] Built target laser_scan_filters\n'}
+[10.559399] (laser_filters) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/test_angular_bounds_filter.dir/test/test_angular_bounds_filter.cpp.o\x1b[0m\n'}
+[10.559569] (laser_filters) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/test_shadow_detector.dir/test/test_shadow_detector.cpp.o\x1b[0m\n'}
+[10.559620] (laser_filters) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/test_speckle_filter.dir/test/test_speckle_filter.cpp.o\x1b[0m\n'}
+[10.559668] (laser_filters) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/laser_filter_chains.dir/src/scan_to_cloud_filter_chain.cpp.o\x1b[0m\n'}
+[10.559746] (laser_filters) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/laser_filter_chains.dir/src/scan_to_scan_filter_chain.cpp.o\x1b[0m\n'}
+[10.559856] (laser_filters) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/test_scan_shadows_filter.dir/test/test_scan_shadows_filter.cpp.o\x1b[0m\n'}
+[10.622913] (-) TimerEvent: {}
+[10.723133] (-) TimerEvent: {}
+[10.823383] (-) TimerEvent: {}
+[10.923649] (-) TimerEvent: {}
+[11.023893] (-) TimerEvent: {}
+[11.124136] (-) TimerEvent: {}
+[11.224408] (-) TimerEvent: {}
+[11.244494] (laser_filters) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable test_shadow_detector\x1b[0m\n'}
+[11.324528] (-) TimerEvent: {}
+[11.424798] (-) TimerEvent: {}
+[11.499250] (laser_filters) StdoutLine: {'line': b'[ 76%] Built target test_shadow_detector\n'}
+[11.524917] (-) TimerEvent: {}
+[11.625155] (-) TimerEvent: {}
+[11.725422] (-) TimerEvent: {}
+[11.825652] (-) TimerEvent: {}
+[11.925896] (-) TimerEvent: {}
+[12.026131] (-) TimerEvent: {}
+[12.126403] (-) TimerEvent: {}
+[12.226691] (-) TimerEvent: {}
+[12.326926] (-) TimerEvent: {}
+[12.427153] (-) TimerEvent: {}
+[12.527385] (-) TimerEvent: {}
+[12.627620] (-) TimerEvent: {}
+[12.727861] (-) TimerEvent: {}
+[12.828098] (-) TimerEvent: {}
+[12.928379] (-) TimerEvent: {}
+[12.984493] (laser_filters) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable test_speckle_filter\x1b[0m\n'}
+[13.028478] (-) TimerEvent: {}
+[13.128734] (-) TimerEvent: {}
+[13.148270] (laser_filters) StdoutLine: {'line': b'[ 80%] Built target test_speckle_filter\n'}
+[13.228852] (-) TimerEvent: {}
+[13.329105] (-) TimerEvent: {}
+[13.429329] (-) TimerEvent: {}
+[13.529592] (-) TimerEvent: {}
+[13.536936] (laser_filters) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable test_angular_bounds_filter\x1b[0m\n'}
+[13.629729] (-) TimerEvent: {}
+[13.695677] (laser_filters) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable test_scan_shadows_filter\x1b[0m\n'}
+[13.701525] (laser_filters) StdoutLine: {'line': b'[ 88%] Built target test_angular_bounds_filter\n'}
+[13.729793] (-) TimerEvent: {}
+[13.830053] (-) TimerEvent: {}
+[13.866910] (laser_filters) StdoutLine: {'line': b'[ 88%] Built target test_scan_shadows_filter\n'}
+[13.930168] (-) TimerEvent: {}
+[14.030424] (-) TimerEvent: {}
+[14.130653] (-) TimerEvent: {}
+[14.230882] (-) TimerEvent: {}
+[14.331097] (-) TimerEvent: {}
+[14.431314] (-) TimerEvent: {}
+[14.531537] (-) TimerEvent: {}
+[14.631797] (-) TimerEvent: {}
+[14.732091] (-) TimerEvent: {}
+[14.832364] (-) TimerEvent: {}
+[14.932593] (-) TimerEvent: {}
+[15.032808] (-) TimerEvent: {}
+[15.133025] (-) TimerEvent: {}
+[15.233243] (-) TimerEvent: {}
+[15.333485] (-) TimerEvent: {}
+[15.434069] (-) TimerEvent: {}
+[15.534552] (-) TimerEvent: {}
+[15.634769] (-) TimerEvent: {}
+[15.735080] (-) TimerEvent: {}
+[15.835782] (-) TimerEvent: {}
+[15.935998] (-) TimerEvent: {}
+[16.036205] (-) TimerEvent: {}
+[16.136414] (-) TimerEvent: {}
+[16.236667] (-) TimerEvent: {}
+[16.336881] (-) TimerEvent: {}
+[16.437095] (-) TimerEvent: {}
+[16.537295] (-) TimerEvent: {}
+[16.637508] (-) TimerEvent: {}
+[16.737716] (-) TimerEvent: {}
+[16.837920] (-) TimerEvent: {}
+[16.938122] (-) TimerEvent: {}
+[17.038327] (-) TimerEvent: {}
+[17.138530] (-) TimerEvent: {}
+[17.238761] (-) TimerEvent: {}
+[17.338969] (-) TimerEvent: {}
+[17.439172] (-) TimerEvent: {}
+[17.539376] (-) TimerEvent: {}
+[17.639587] (-) TimerEvent: {}
+[17.739793] (-) TimerEvent: {}
+[17.840048] (-) TimerEvent: {}
+[17.940297] (-) TimerEvent: {}
+[18.040507] (-) TimerEvent: {}
+[18.140769] (-) TimerEvent: {}
+[18.241033] (-) TimerEvent: {}
+[18.341245] (-) TimerEvent: {}
+[18.441461] (-) TimerEvent: {}
+[18.541662] (-) TimerEvent: {}
+[18.641875] (-) TimerEvent: {}
+[18.742101] (-) TimerEvent: {}
+[18.842306] (-) TimerEvent: {}
+[18.942519] (-) TimerEvent: {}
+[19.042753] (-) TimerEvent: {}
+[19.143025] (-) TimerEvent: {}
+[19.243282] (-) TimerEvent: {}
+[19.291471] (laser_filters) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX shared library liblaser_filter_chains.so\x1b[0m\n'}
+[19.343400] (-) TimerEvent: {}
+[19.443659] (-) TimerEvent: {}
+[19.543935] (-) TimerEvent: {}
+[19.644164] (-) TimerEvent: {}
+[19.685632] (laser_filters) StdoutLine: {'line': b'[ 92%] Built target laser_filter_chains\n'}
+[19.702856] (laser_filters) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/generic_laser_filter_node.dir/src/generic_laser_filter_node.cpp.o\x1b[0m\n'}
+[19.744265] (-) TimerEvent: {}
+[19.844496] (-) TimerEvent: {}
+[19.944706] (-) TimerEvent: {}
+[20.044927] (-) TimerEvent: {}
+[20.145148] (-) TimerEvent: {}
+[20.245400] (-) TimerEvent: {}
+[20.345618] (-) TimerEvent: {}
+[20.445851] (-) TimerEvent: {}
+[20.546065] (-) TimerEvent: {}
+[20.646304] (-) TimerEvent: {}
+[20.746519] (-) TimerEvent: {}
+[20.846752] (-) TimerEvent: {}
+[20.946978] (-) TimerEvent: {}
+[21.047213] (-) TimerEvent: {}
+[21.147429] (-) TimerEvent: {}
+[21.247693] (-) TimerEvent: {}
+[21.347951] (-) TimerEvent: {}
+[21.448163] (-) TimerEvent: {}
+[21.548375] (-) TimerEvent: {}
+[21.648592] (-) TimerEvent: {}
+[21.748844] (-) TimerEvent: {}
+[21.849054] (-) TimerEvent: {}
+[21.949268] (-) TimerEvent: {}
+[22.049488] (-) TimerEvent: {}
+[22.149762] (-) TimerEvent: {}
+[22.250001] (-) TimerEvent: {}
+[22.350245] (-) TimerEvent: {}
+[22.450472] (-) TimerEvent: {}
+[22.550744] (-) TimerEvent: {}
+[22.650968] (-) TimerEvent: {}
+[22.751186] (-) TimerEvent: {}
+[22.851412] (-) TimerEvent: {}
+[22.951658] (-) TimerEvent: {}
+[23.051897] (-) TimerEvent: {}
+[23.152169] (-) TimerEvent: {}
+[23.252429] (-) TimerEvent: {}
+[23.352681] (-) TimerEvent: {}
+[23.452953] (-) TimerEvent: {}
+[23.553159] (-) TimerEvent: {}
+[23.653365] (-) TimerEvent: {}
+[23.753568] (-) TimerEvent: {}
+[23.853807] (-) TimerEvent: {}
+[23.954007] (-) TimerEvent: {}
+[24.054233] (-) TimerEvent: {}
+[24.154436] (-) TimerEvent: {}
+[24.254680] (-) TimerEvent: {}
+[24.354891] (-) TimerEvent: {}
+[24.452119] (laser_filters) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/generic_laser_filter_node.dir/build.make:76: CMakeFiles/generic_laser_filter_node.dir/src/generic_laser_filter_node.cpp.o] Interrupt\n'}
+[24.452407] (laser_filters) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:278: CMakeFiles/generic_laser_filter_node.dir/all] Interrupt\n'}
+[24.452773] (laser_filters) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[24.454951] (-) TimerEvent: {}
+[24.544328] (laser_filters) CommandEnded: {'returncode': -2}
+[24.549644] (laser_filters) JobEnded: {'identifier': 'laser_filters', 'rc': 'SIGINT'}
+[24.555046] (-) TimerEvent: {}
+[24.560003] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+/home/amr-pc/amr_ws/build/panthera_hardware/CMakeFiles/uninstall.dir
+/home/amr-pc/amr_ws/build/panthera_hardware/CMakeFiles/panthera_hardware_uninstall.dir
+/home/amr-pc/amr_ws/build/panthera_hardware/CMakeFiles/panthera_hardware.dir
+/home/amr-pc/amr_ws/build/panthera_hardware/CMakeFiles/test.dir
+/home/amr-pc/amr_ws/build/panthera_hardware/CMakeFiles/edit_cache.dir
+/home/amr-pc/amr_ws/build/panthera_hardware/CMakeFiles/rebuild_cache.dir
+/home/amr-pc/amr_ws/build/panthera_hardware/CMakeFiles/list_install_components.dir
+/home/amr-pc/amr_ws/build/panthera_hardware/CMakeFiles/install.dir
+/home/amr-pc/amr_ws/build/panthera_hardware/CMakeFiles/install/local.dir
+/home/amr-pc/amr_ws/build/panthera_hardware/CMakeFiles/install/strip.dir

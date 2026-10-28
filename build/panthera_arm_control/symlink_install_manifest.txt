@@ -1,0 +1,17 @@
+/home/amr-pc/amr_ws/install/panthera_arm_control/lib/panthera_arm_control/arm_control_node
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/launch/arm_control.launch.py
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/ament_index/resource_index/package_run_dependencies/panthera_arm_control
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/ament_index/resource_index/parent_prefix_path/panthera_arm_control
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/environment/ament_prefix_path.sh
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/environment/ament_prefix_path.dsv
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/environment/path.sh
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/environment/path.dsv
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/local_setup.bash
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/local_setup.sh
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/local_setup.zsh
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/local_setup.dsv
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/package.dsv
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/ament_index/resource_index/packages/panthera_arm_control
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/cmake/panthera_arm_controlConfig.cmake
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/cmake/panthera_arm_controlConfig-version.cmake
+/home/amr-pc/amr_ws/install/panthera_arm_control/share/panthera_arm_control/package.xml

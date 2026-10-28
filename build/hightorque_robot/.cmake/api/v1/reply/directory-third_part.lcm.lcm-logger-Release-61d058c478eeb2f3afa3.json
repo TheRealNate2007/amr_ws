@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "third_part/lcm/lcm-logger",
+		"source" : "third_part/lcm/lcm-logger"
+	}
+}

@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/build/panthera_interfaces/rosidl_generator_rs/panthera_interfaces/rust/src/msg/rmw.rs

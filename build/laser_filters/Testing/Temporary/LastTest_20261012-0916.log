@@ -1,0 +1,172 @@
+Start testing: Oct 12 12:16 EEST
+----------------------------------------------------------
+1/7 Testing: test_scan_filter_chain
+1/7 Test: test_scan_filter_chain
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_scan_filter_chain" "--ros-args" "--params-file" "/home/amr-pc/amr_ws/src/laser_filters/test/test_scan_filter_chain.yaml" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml"
+Directory: /home/amr-pc/amr_ws/build/laser_filters
+"test_scan_filter_chain" start time: Oct 12 12:16 EEST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+ - /home/amr-pc/amr_ws/build/laser_filters/test_scan_filter_chain --ros-args --params-file /home/amr-pc/amr_ws/src/laser_filters/test/test_scan_filter_chain.yaml --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml
+terminate called after throwing an instance of 'spdlog::spdlog_ex'
+  what():  Failed opening file /home/amr-pc/.ros/log/test_scan_filter_chain_14_1791796577461.log for writing: Read-only file system
+-- run_test.py: return code -6
+-- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml' with failed test
+-- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml'
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"test_scan_filter_chain" end time: Oct 12 12:16 EEST
+"test_scan_filter_chain" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: test_shadow_detector
+2/7 Test: test_shadow_detector
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_shadow_detector" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml"
+Directory: /home/amr-pc/amr_ws/build/laser_filters
+"test_shadow_detector" start time: Oct 12 12:16 EEST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+ - /home/amr-pc/amr_ws/build/laser_filters/test_shadow_detector --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ScanShadowDetector
+[ RUN      ] ScanShadowDetector.ShadowDetectionGeometry
+[       OK ] ScanShadowDetector.ShadowDetectionGeometry (11 ms)
+[----------] 1 test from ScanShadowDetector (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml'
+-- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml'
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"test_shadow_detector" end time: Oct 12 12:16 EEST
+"test_shadow_detector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: test_speckle_filter
+3/7 Test: test_speckle_filter
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_speckle_filter" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml"
+Directory: /home/amr-pc/amr_ws/build/laser_filters
+"test_speckle_filter" start time: Oct 12 12:16 EEST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+ - /home/amr-pc/amr_ws/build/laser_filters/test_speckle_filter --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml
+terminate called after throwing an instance of 'spdlog::spdlog_ex'
+  what():  Failed opening file /home/amr-pc/.ros/log/test_speckle_filter_22_1791796577725.log for writing: Read-only file system
+-- run_test.py: return code -6
+-- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml' with failed test
+-- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml'
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Failed.
+"test_speckle_filter" end time: Oct 12 12:16 EEST
+"test_speckle_filter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: test_scan_shadows_filter
+4/7 Test: test_scan_shadows_filter
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_scan_shadows_filter" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml"
+Directory: /home/amr-pc/amr_ws/build/laser_filters
+"test_scan_shadows_filter" start time: Oct 12 12:16 EEST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+ - /home/amr-pc/amr_ws/build/laser_filters/test_scan_shadows_filter --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml
+terminate called after throwing an instance of 'spdlog::spdlog_ex'
+  what():  Failed opening file /home/amr-pc/.ros/log/test_scan_shadows_filter_26_1791796577920.log for writing: Read-only file system
+-- run_test.py: return code -6
+-- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml' with failed test
+-- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml'
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"test_scan_shadows_filter" end time: Oct 12 12:16 EEST
+"test_scan_shadows_filter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: test_angular_bounds_filter
+5/7 Test: test_angular_bounds_filter
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_angular_bounds_filter" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml"
+Directory: /home/amr-pc/amr_ws/build/laser_filters
+"test_angular_bounds_filter" start time: Oct 12 12:16 EEST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+ - /home/amr-pc/amr_ws/build/laser_filters/test_angular_bounds_filter --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml
+terminate called after throwing an instance of 'spdlog::spdlog_ex'
+  what():  Failed opening file /home/amr-pc/.ros/log/test_angular_bounds_filter_30_1791796578124.log for writing: Read-only file system
+-- run_test.py: return code -6
+-- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml' with failed test
+-- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml'
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Failed.
+"test_angular_bounds_filter" end time: Oct 12 12:16 EEST
+"test_angular_bounds_filter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: test_test_polygon_filter.test.py
+6/7 Test: test_test_polygon_filter.test.py
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml" "--package-name" "laser_filters" "--output-file" "/home/amr-pc/amr_ws/build/laser_filters/launch_test/test_test_polygon_filter.test.py.txt" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/amr-pc/amr_ws/src/laser_filters/test/test_polygon_filter.test.py" "--junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml" "--package-name=laser_filters"
+Directory: /home/amr-pc/amr_ws/build/laser_filters
+"test_test_polygon_filter.test.py" start time: Oct 12 12:16 EEST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+ - /usr/bin/python3 -m launch_testing.launch_test /home/amr-pc/amr_ws/src/laser_filters/test/test_polygon_filter.test.py --junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml --package-name=laser_filters
+usage: launch_test.py [-h] [--package-name PACKAGE_NAME] [-v] [-s]
+                      [--junit-xml XMLPATH]
+                      launch_test_file [launch_arguments ...]
+launch_test.py: error: [Errno 30] Read-only file system: '/home/amr-pc/.ros/log/2026-10-12-12-16-18-635919-robot-pc-34'
+-- run_test.py: return code 2
+-- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml' with failed test
+-- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml'
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Failed.
+"test_test_polygon_filter.test.py" end time: Oct 12 12:16 EEST
+"test_test_polygon_filter.test.py" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: test_test_speckle_filter.test.py
+7/7 Test: test_test_speckle_filter.test.py
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml" "--package-name" "laser_filters" "--output-file" "/home/amr-pc/amr_ws/build/laser_filters/launch_test/test_test_speckle_filter.test.py.txt" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.test.py" "--junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml" "--package-name=laser_filters"
+Directory: /home/amr-pc/amr_ws/build/laser_filters
+"test_test_speckle_filter.test.py" start time: Oct 12 12:16 EEST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+ - /usr/bin/python3 -m launch_testing.launch_test /home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.test.py --junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml --package-name=laser_filters
+usage: launch_test.py [-h] [--package-name PACKAGE_NAME] [-v] [-s]
+                      [--junit-xml XMLPATH]
+                      launch_test_file [launch_arguments ...]
+launch_test.py: error: [Errno 30] Read-only file system: '/home/amr-pc/.ros/log/2026-10-12-12-16-19-066602-robot-pc-38'
+-- run_test.py: return code 2
+-- run_test.py: generate result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml' with failed test
+-- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml'
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Failed.
+"test_test_speckle_filter.test.py" end time: Oct 12 12:16 EEST
+"test_test_speckle_filter.test.py" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 12 12:16 EEST
+
+launch_test =   0.87 sec*proc
+

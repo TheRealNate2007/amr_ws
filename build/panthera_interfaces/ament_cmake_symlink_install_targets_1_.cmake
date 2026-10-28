@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/amr-pc/amr_ws/build/panthera_interfaces/rosidl_generator_py/panthera_interfaces/panthera_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "panthera_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/panthera_interfaces")

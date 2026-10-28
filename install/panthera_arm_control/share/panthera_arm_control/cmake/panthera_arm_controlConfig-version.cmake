@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/build/panthera_arm_control/ament_cmake_core/panthera_arm_controlConfig-version.cmake

@@ -1,0 +1,618 @@
+[0.021s] Invoking command in '/home/amr-pc/amr_ws/build/laser_filters': CMAKE_PREFIX_PATH=/home/amr-pc/amr_ws/install/laser_filters:/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_commander:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_arm_control:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amr-pc/amr_ws/install/laser_filters/lib:/home/amr-pc/amr_ws/install/panthera_interfaces/lib:/home/amr-pc/amr_ws/install/panthera_hardware/lib:/home/amr-pc/amr_ws/install/hightorque_robot/lib:/home/amr-pc/amr_ws/install/amr_hardware/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.027s] UpdateCTestConfiguration  from :/home/amr-pc/amr_ws/build/laser_filters/CTestConfiguration.ini
+[0.028s] Parse Config file:/home/amr-pc/amr_ws/build/laser_filters/CTestConfiguration.ini
+[0.028s]    Site: robot-pc
+[0.028s]    Build name: (empty)
+[0.028s]  Add coverage exclude regular expressions.
+[0.028s] Create new tag: 20261012-0916 - Experimental
+[0.028s] UpdateCTestConfiguration  from :/home/amr-pc/amr_ws/build/laser_filters/CTestConfiguration.ini
+[0.028s] Parse Config file:/home/amr-pc/amr_ws/build/laser_filters/CTestConfiguration.ini
+[0.028s] Test project /home/amr-pc/amr_ws/build/laser_filters
+[0.028s] Constructing a list of tests
+[0.029s] Done constructing a list of tests
+[0.029s] Updating test list for fixtures
+[0.029s] Added 0 tests to meet fixture requirements
+[0.029s] Checking test dependency graph...
+[0.029s] Checking test dependency graph end
+[0.029s] test 1
+[0.029s]     Start 1: test_scan_filter_chain
+[0.029s] 
+[0.029s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_scan_filter_chain" "--ros-args" "--params-file" "/home/amr-pc/amr_ws/src/laser_filters/test/test_scan_filter_chain.yaml" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml"
+[0.029s] 1: Working Directory: /home/amr-pc/amr_ws/build/laser_filters
+[0.029s] 1: Test timeout computed to be: 60
+[0.069s] 1: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+[0.069s] 1:  - /home/amr-pc/amr_ws/build/laser_filters/test_scan_filter_chain --ros-args --params-file /home/amr-pc/amr_ws/src/laser_filters/test/test_scan_filter_chain.yaml --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml
+[0.086s] 1: [==========] Running 6 tests from 1 test suite.
+[0.086s] 1: [----------] Global test environment set-up.
+[0.086s] 1: [----------] 6 tests from ScanToScanFilterChain
+[0.086s] 1: [ RUN      ] ScanToScanFilterChain.BadConfiguration
+[0.087s] 1: getifaddrs: Operation not permitted
+[0.087s] 1: getifaddrs: Operation not permitted
+[0.087s] 1: getifaddrs: Operation not permitted
+[0.088s] 1: [37;1m2026-10-12 12:16:25.233 [31;1m[[37;1mTRANSPORT_UDP[31;1m Error] [37mError creating socket: Operation not permitted[34;1m -> Function [36minit[m
+[0.088s] 1: [37;1m2026-10-12 12:16:25.233 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUser transport failed to register.[34;1m -> Function [36mRTPSParticipantImpl[m
+[0.088s] 1: getifaddrs: Operation not permitted
+[0.089s] 1: getifaddrs: Operation not permitted
+[0.089s] 1: getifaddrs: Operation not permitted
+[0.089s] 1: getifaddrs: Operation not permitted
+[0.089s] 1: getifaddrs: Operation not permitted
+[0.089s] 1: getifaddrs: Operation not permitted
+[0.089s] 1: getifaddrs: Operation not permitted
+[0.089s] 1: getifaddrs: Operation not permitted
+[0.091s] 1: getifaddrs: Operation not permitted
+[0.091s] 1: getifaddrs: Operation not permitted
+[0.092s] 1: getifaddrs: Operation not permitted
+[0.093s] 1: getifaddrs: Operation not permitted
+[0.093s] 1: getifaddrs: Operation not permitted
+[0.093s] 1: getifaddrs: Operation not permitted
+[0.093s] 1: getifaddrs: Operation not permitted
+[0.093s] 1: getifaddrs: Operation not permitted
+[0.094s] 1: getifaddrs: Operation not permitted
+[0.094s] 1: getifaddrs: Operation not permitted
+[0.094s] 1: getifaddrs: Operation not permitted
+[0.094s] 1: getifaddrs: Operation not permitted
+[0.094s] 1: getifaddrs: Operation not permitted
+[0.094s] 1: getifaddrs: Operation not permitted
+[0.094s] 1: getifaddrs: Operation not permitted
+[0.095s] 1: getifaddrs: Operation not permitted
+[0.095s] 1: getifaddrs: Operation not permitted
+[0.095s] 1: getifaddrs: Operation not permitted
+[0.095s] 1: getifaddrs: Operation not permitted
+[0.103s] 1: [       OK ] ScanToScanFilterChain.BadConfiguration (17 ms)
+[0.103s] 1: [ RUN      ] ScanToScanFilterChain.IntensityFilter
+[0.105s] 1: [37;1m2026-10-12 12:16:25.250 [31;1m[[37;1mTRANSPORT_UDP[31;1m Error] [37mError creating socket: Operation not permitted[34;1m -> Function [36minit[m
+[0.105s] 1: [37;1m2026-10-12 12:16:25.250 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUser transport failed to register.[34;1m -> Function [36mRTPSParticipantImpl[m
+[0.105s] 1: getifaddrs: Operation not permitted
+[0.105s] 1: getifaddrs: Operation not permitted
+[0.106s] 1: getifaddrs: Operation not permitted
+[0.106s] 1: getifaddrs: Operation not permitted
+[0.106s] 1: getifaddrs: Operation not permitted
+[0.106s] 1: getifaddrs: Operation not permitted
+[0.106s] 1: getifaddrs: Operation not permitted
+[0.106s] 1: getifaddrs: Operation not permitted
+[0.106s] 1: getifaddrs: Operation not permitted
+[0.106s] 1: getifaddrs: Operation not permitted
+[0.106s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.107s] 1: getifaddrs: Operation not permitted
+[0.108s] 1: getifaddrs: Operation not permitted
+[0.108s] 1: getifaddrs: Operation not permitted
+[0.108s] 1: getifaddrs: Operation not permitted
+[0.108s] 1: getifaddrs: Operation not permitted
+[0.110s] 1: ********** SCAN **********
+[0.110s] 1: 0 - 2000: 10
+[0.110s] 1: 2000 - 4000: 0
+[0.110s] 1: 4000 - 6000: 0
+[0.110s] 1: 6000 - 8000: 0
+[0.110s] 1: 8000 - 10000: 0
+[0.110s] 1: 10000 - 12000: 0
+[0.110s] 1: 12000 - 14000: 0
+[0.110s] 1: 14000 - 16000: 0
+[0.110s] 1: 16000 - 18000: 0
+[0.110s] 1: 18000 - 20000: 0
+[0.110s] 1: 20000 - 22000: 0
+[0.110s] 1: 22000 - 24000: 0
+[0.110s] 1: 24000 - 26000: 0
+[0.111s] 1: 26000 - 28000: 0
+[0.111s] 1: 28000 - 30000: 0
+[0.111s] 1: 30000 - 32000: 0
+[0.111s] 1: 32000 - 34000: 0
+[0.111s] 1: 34000 - 36000: 0
+[0.111s] 1: 36000 - 38000: 0
+[0.111s] 1: 38000 - 40000: 0
+[0.111s] 1: 40000 - 42000: 0
+[0.111s] 1: 42000 - 44000: 0
+[0.111s] 1: 44000 - 46000: 0
+[0.111s] 1: 46000 - 48000: 0
+[0.111s] 1: [       OK ] ScanToScanFilterChain.IntensityFilter (6 ms)
+[0.111s] 1: [ RUN      ] ScanToScanFilterChain.InterpFilter
+[0.111s] 1: [37;1m2026-10-12 12:16:25.256 [31;1m[[37;1mTRANSPORT_UDP[31;1m Error] [37mError creating socket: Operation not permitted[34;1m -> Function [36minit[m
+[0.111s] 1: [37;1m2026-10-12 12:16:25.256 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUser transport failed to register.[34;1m -> Function [36mRTPSParticipantImpl[m
+[0.112s] 1: getifaddrs: Operation not permitted
+[0.112s] 1: getifaddrs: Operation not permitted
+[0.112s] 1: getifaddrs: Operation not permitted
+[0.112s] 1: getifaddrs: Operation not permitted
+[0.112s] 1: getifaddrs: Operation not permitted
+[0.112s] 1: getifaddrs: Operation not permitted
+[0.112s] 1: getifaddrs: Operation not permitted
+[0.112s] 1: getifaddrs: Operation not permitted
+[0.112s] 1: getifaddrs: Operation not permitted
+[0.113s] 1: getifaddrs: Operation not permitted
+[0.113s] 1: getifaddrs: Operation not permitted
+[0.113s] 1: getifaddrs: Operation not permitted
+[0.113s] 1: getifaddrs: Operation not permitted
+[0.113s] 1: getifaddrs: Operation not permitted
+[0.114s] 1: getifaddrs: Operation not permitted
+[0.114s] 1: getifaddrs: Operation not permitted
+[0.114s] 1: getifaddrs: Operation not permitted
+[0.114s] 1: getifaddrs: Operation not permitted
+[0.114s] 1: getifaddrs: Operation not permitted
+[0.114s] 1: getifaddrs: Operation not permitted
+[0.114s] 1: getifaddrs: Operation not permitted
+[0.114s] 1: getifaddrs: Operation not permitted
+[0.114s] 1: getifaddrs: Operation not permitted
+[0.114s] 1: getifaddrs: Operation not permitted
+[0.114s] 1: getifaddrs: Operation not permitted
+[0.115s] 1: getifaddrs: Operation not permitted
+[0.115s] 1: getifaddrs: Operation not permitted
+[0.116s] 1: [       OK ] ScanToScanFilterChain.InterpFilter (6 ms)
+[0.116s] 1: [ RUN      ] ScanToScanFilterChain.ShadowFilter
+[0.117s] 1: [37;1m2026-10-12 12:16:25.262 [31;1m[[37;1mTRANSPORT_UDP[31;1m Error] [37mError creating socket: Operation not permitted[34;1m -> Function [36minit[m
+[0.117s] 1: [37;1m2026-10-12 12:16:25.262 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUser transport failed to register.[34;1m -> Function [36mRTPSParticipantImpl[m
+[0.118s] 1: getifaddrs: Operation not permitted
+[0.118s] 1: getifaddrs: Operation not permitted
+[0.118s] 1: getifaddrs: Operation not permitted
+[0.118s] 1: getifaddrs: Operation not permitted
+[0.118s] 1: getifaddrs: Operation not permitted
+[0.118s] 1: getifaddrs: Operation not permitted
+[0.118s] 1: getifaddrs: Operation not permitted
+[0.118s] 1: getifaddrs: Operation not permitted
+[0.118s] 1: getifaddrs: Operation not permitted
+[0.119s] 1: getifaddrs: Operation not permitted
+[0.119s] 1: getifaddrs: Operation not permitted
+[0.119s] 1: getifaddrs: Operation not permitted
+[0.119s] 1: getifaddrs: Operation not permitted
+[0.119s] 1: getifaddrs: Operation not permitted
+[0.119s] 1: getifaddrs: Operation not permitted
+[0.119s] 1: getifaddrs: Operation not permitted
+[0.119s] 1: getifaddrs: Operation not permitted
+[0.120s] 1: getifaddrs: Operation not permitted
+[0.120s] 1: getifaddrs: Operation not permitted
+[0.120s] 1: getifaddrs: Operation not permitted
+[0.120s] 1: getifaddrs: Operation not permitted
+[0.120s] 1: getifaddrs: Operation not permitted
+[0.120s] 1: getifaddrs: Operation not permitted
+[0.120s] 1: getifaddrs: Operation not permitted
+[0.120s] 1: getifaddrs: Operation not permitted
+[0.120s] 1: getifaddrs: Operation not permitted
+[0.120s] 1: getifaddrs: Operation not permitted
+[0.121s] 1: [INFO] [1791796585.266371324] [shadow_filter_chain]: In shadow configure done
+[0.122s] 1: [       OK ] ScanToScanFilterChain.ShadowFilter (6 ms)
+[0.122s] 1: [ RUN      ] ScanToScanFilterChain.ArrayFilter
+[0.124s] 1: [37;1m2026-10-12 12:16:25.269 [31;1m[[37;1mTRANSPORT_UDP[31;1m Error] [37mError creating socket: Operation not permitted[34;1m -> Function [36minit[m
+[0.124s] 1: [37;1m2026-10-12 12:16:25.269 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUser transport failed to register.[34;1m -> Function [36mRTPSParticipantImpl[m
+[0.124s] 1: getifaddrs: Operation not permitted
+[0.124s] 1: getifaddrs: Operation not permitted
+[0.124s] 1: getifaddrs: Operation not permitted
+[0.124s] 1: getifaddrs: Operation not permitted
+[0.124s] 1: getifaddrs: Operation not permitted
+[0.125s] 1: getifaddrs: Operation not permitted
+[0.125s] 1: getifaddrs: Operation not permitted
+[0.125s] 1: getifaddrs: Operation not permitted
+[0.125s] 1: getifaddrs: Operation not permitted
+[0.125s] 1: getifaddrs: Operation not permitted
+[0.125s] 1: getifaddrs: Operation not permitted
+[0.125s] 1: getifaddrs: Operation not permitted
+[0.125s] 1: getifaddrs: Operation not permitted
+[0.126s] 1: getifaddrs: Operation not permitted
+[0.126s] 1: getifaddrs: Operation not permitted
+[0.126s] 1: getifaddrs: Operation not permitted
+[0.126s] 1: getifaddrs: Operation not permitted
+[0.126s] 1: getifaddrs: Operation not permitted
+[0.126s] 1: getifaddrs: Operation not permitted
+[0.126s] 1: getifaddrs: Operation not permitted
+[0.126s] 1: getifaddrs: Operation not permitted
+[0.127s] 1: getifaddrs: Operation not permitted
+[0.127s] 1: getifaddrs: Operation not permitted
+[0.127s] 1: getifaddrs: Operation not permitted
+[0.127s] 1: getifaddrs: Operation not permitted
+[0.127s] 1: getifaddrs: Operation not permitted
+[0.127s] 1: getifaddrs: Operation not permitted
+[0.127s] 1: [INFO] [1791796585.272838072] [array_filter_chain]: LaserArrayFilter cleaning and reallocating due to larger scan size
+[0.131s] 1: [       OK ] ScanToScanFilterChain.ArrayFilter (8 ms)
+[0.131s] 1: [ RUN      ] ScanToScanFilterChain.MaskFilter
+[0.133s] 1: getifaddrs: Operation not permitted
+[0.133s] 1: getifaddrs: Operation not permitted
+[0.133s] 1: getifaddrs: Operation not permitted
+[0.133s] 1: getifaddrs: Operation not permitted
+[0.133s] 1: getifaddrs: Operation not permitted
+[0.133s] 1: getifaddrs: Operation not permitted
+[0.134s] 1: getifaddrs: Operation not permitted
+[0.134s] 1: getifaddrs: Operation not permitted
+[0.134s] 1: getifaddrs: Operation not permitted
+[0.134s] 1: getifaddrs: Operation not permitted
+[0.134s] 1: getifaddrs: Operation not permitted
+[0.134s] 1: getifaddrs: Operation not permitted
+[0.134s] 1: getifaddrs: Operation not permitted
+[0.134s] 1: getifaddrs: Operation not permitted
+[0.134s] 1: getifaddrs: Operation not permitted
+[0.134s] 1: getifaddrs: Operation not permitted
+[0.134s] 1: getifaddrs: Operation not permitted
+[0.135s] 1: [INFO] [1791796585.279957291] [mask_filter_chain]: LaserScanMaskFilter: laser: 2 directions will be masked.
+[0.135s] 1: [       OK ] ScanToScanFilterChain.MaskFilter (4 ms)
+[0.135s] 1: [----------] 6 tests from ScanToScanFilterChain (49 ms total)
+[0.135s] 1: 
+[0.135s] 1: [----------] Global test environment tear-down
+[0.136s] 1: [==========] 6 tests from 1 test suite ran. (49 ms total)
+[0.136s] 1: [  PASSED  ] 6 tests.
+[0.136s] 1: Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[0.136s] 1:          at line 127 in ./src/class_loader.cpp
+[0.136s] 1: Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[0.136s] 1:          at line 127 in ./src/class_loader.cpp
+[0.139s] 1: corrupted double-linked list
+[0.223s] 1: -- run_test.py: return code -6
+[0.223s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml'
+[0.223s] 1: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_filter_chain.gtest.xml'
+[0.231s] 1/7 Test #1: test_scan_filter_chain .............***Failed    0.20 sec
+[0.231s] test 2
+[0.231s]     Start 2: test_shadow_detector
+[0.231s] 
+[0.232s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_shadow_detector" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml"
+[0.232s] 2: Working Directory: /home/amr-pc/amr_ws/build/laser_filters
+[0.232s] 2: Test timeout computed to be: 60
+[0.273s] 2: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+[0.273s] 2:  - /home/amr-pc/amr_ws/build/laser_filters/test_shadow_detector --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml
+[0.275s] 2: [==========] Running 1 test from 1 test suite.
+[0.275s] 2: [----------] Global test environment set-up.
+[0.275s] 2: [----------] 1 test from ScanShadowDetector
+[0.275s] 2: [ RUN      ] ScanShadowDetector.ShadowDetectionGeometry
+[0.286s] 2: [       OK ] ScanShadowDetector.ShadowDetectionGeometry (11 ms)
+[0.287s] 2: [----------] 1 test from ScanShadowDetector (11 ms total)
+[0.287s] 2: 
+[0.287s] 2: [----------] Global test environment tear-down
+[0.287s] 2: [==========] 1 test from 1 test suite ran. (11 ms total)
+[0.287s] 2: [  PASSED  ] 1 test.
+[0.287s] 2: -- run_test.py: return code 0
+[0.287s] 2: -- run_test.py: inject classname prefix into gtest result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml'
+[0.287s] 2: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_shadow_detector.gtest.xml'
+[0.295s] 2/7 Test #2: test_shadow_detector ...............   Passed    0.06 sec
+[0.295s] test 3
+[0.295s]     Start 3: test_speckle_filter
+[0.295s] 
+[0.295s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_speckle_filter" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml"
+[0.295s] 3: Working Directory: /home/amr-pc/amr_ws/build/laser_filters
+[0.295s] 3: Test timeout computed to be: 60
+[0.337s] 3: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+[0.337s] 3:  - /home/amr-pc/amr_ws/build/laser_filters/test_speckle_filter --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml
+[0.351s] 3: [==========] Running 10 tests from 1 test suite.
+[0.351s] 3: [----------] Global test environment set-up.
+[0.351s] 3: [----------] 10 tests from SpeckleFilter_Distance
+[0.351s] 3: [ RUN      ] SpeckleFilter_Distance.SingleSpeckle
+[0.351s] 3: [       OK ] SpeckleFilter_Distance.SingleSpeckle (0 ms)
+[0.351s] 3: [ RUN      ] SpeckleFilter_Distance.TwoDistantSpeckles
+[0.351s] 3: [       OK ] SpeckleFilter_Distance.TwoDistantSpeckles (0 ms)
+[0.351s] 3: [ RUN      ] SpeckleFilter_Distance.TwoNearSpeckles
+[0.351s] 3: [       OK ] SpeckleFilter_Distance.TwoNearSpeckles (0 ms)
+[0.352s] 3: [ RUN      ] SpeckleFilter_Distance.TwoSpecklesAtEdge
+[0.352s] 3: [       OK ] SpeckleFilter_Distance.TwoSpecklesAtEdge (0 ms)
+[0.352s] 3: [ RUN      ] SpeckleFilter_Distance.SinglePeak
+[0.352s] 3: [       OK ] SpeckleFilter_Distance.SinglePeak (0 ms)
+[0.352s] 3: [ RUN      ] SpeckleFilter_Distance.TwoFarPeaks
+[0.352s] 3: [       OK ] SpeckleFilter_Distance.TwoFarPeaks (0 ms)
+[0.352s] 3: [ RUN      ] SpeckleFilter_Distance.TwoNearPeaks
+[0.352s] 3: [       OK ] SpeckleFilter_Distance.TwoNearPeaks (0 ms)
+[0.352s] 3: [ RUN      ] SpeckleFilter_Distance.TwoPeaksAtEdge
+[0.352s] 3: [       OK ] SpeckleFilter_Distance.TwoPeaksAtEdge (0 ms)
+[0.352s] 3: [ RUN      ] SpeckleFilter_Distance.MultiplePlateausNoSpeckles
+[0.352s] 3: [       OK ] SpeckleFilter_Distance.MultiplePlateausNoSpeckles (0 ms)
+[0.352s] 3: [ RUN      ] SpeckleFilter_Distance.MultiplePlateausBiggerWindow
+[0.352s] 3: [       OK ] SpeckleFilter_Distance.MultiplePlateausBiggerWindow (0 ms)
+[0.352s] 3: [----------] 10 tests from SpeckleFilter_Distance (0 ms total)
+[0.352s] 3: 
+[0.352s] 3: [----------] Global test environment tear-down
+[0.352s] 3: [==========] 10 tests from 1 test suite ran. (0 ms total)
+[0.353s] 3: [  PASSED  ] 10 tests.
+[0.353s] 3: -- run_test.py: return code 0
+[0.353s] 3: -- run_test.py: inject classname prefix into gtest result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml'
+[0.353s] 3: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_speckle_filter.gtest.xml'
+[0.365s] 3/7 Test #3: test_speckle_filter ................   Passed    0.07 sec
+[0.366s] test 4
+[0.366s]     Start 4: test_scan_shadows_filter
+[0.366s] 
+[0.366s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_scan_shadows_filter" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml"
+[0.366s] 4: Working Directory: /home/amr-pc/amr_ws/build/laser_filters
+[0.366s] 4: Test timeout computed to be: 60
+[0.408s] 4: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+[0.409s] 4:  - /home/amr-pc/amr_ws/build/laser_filters/test_scan_shadows_filter --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml
+[0.424s] 4: [==========] Running 11 tests from 1 test suite.
+[0.424s] 4: [----------] Global test environment set-up.
+[0.424s] 4: [----------] 11 tests from ScanShadowsFilter
+[0.424s] 4: [ RUN      ] ScanShadowsFilter.NoShadows
+[0.424s] 4: [       OK ] ScanShadowsFilter.NoShadows (0 ms)
+[0.424s] 4: [ RUN      ] ScanShadowsFilter.DistanceDeltaWithoutShadow
+[0.424s] 4: [       OK ] ScanShadowsFilter.DistanceDeltaWithoutShadow (0 ms)
+[0.425s] 4: [ RUN      ] ScanShadowsFilter.DistanceDeltaWithoutShadow_Angles_8_172
+[0.425s] 4: [       OK ] ScanShadowsFilter.DistanceDeltaWithoutShadow_Angles_8_172 (0 ms)
+[0.425s] 4: [ RUN      ] ScanShadowsFilter.DistanceDeltaWithoutShadow_Angles_5_175
+[0.425s] 4: [       OK ] ScanShadowsFilter.DistanceDeltaWithoutShadow_Angles_5_175 (0 ms)
+[0.425s] 4: [ RUN      ] ScanShadowsFilter.DistanceDeltaWithoutShadowFlipped_Angles_5_175
+[0.425s] 4: [       OK ] ScanShadowsFilter.DistanceDeltaWithoutShadowFlipped_Angles_5_175 (0 ms)
+[0.425s] 4: [ RUN      ] ScanShadowsFilter.DistanceDeltaWithoutShadow_Angles_3_177
+[0.425s] 4: [       OK ] ScanShadowsFilter.DistanceDeltaWithoutShadow_Angles_3_177 (0 ms)
+[0.425s] 4: [ RUN      ] ScanShadowsFilter.SingleBackwardShadow_NoNeighbours
+[0.425s] 4: [       OK ] ScanShadowsFilter.SingleBackwardShadow_NoNeighbours (0 ms)
+[0.425s] 4: [ RUN      ] ScanShadowsFilter.SingleBackwardShadow_OneNeighbour
+[0.425s] 4: [       OK ] ScanShadowsFilter.SingleBackwardShadow_OneNeighbour (0 ms)
+[0.426s] 4: [ RUN      ] ScanShadowsFilter.SingleForwardShadow_NoNeighbours
+[0.426s] 4: [       OK ] ScanShadowsFilter.SingleForwardShadow_NoNeighbours (0 ms)
+[0.426s] 4: [ RUN      ] ScanShadowsFilter.SingleForwardShadow_OneNeighbour
+[0.426s] 4: [       OK ] ScanShadowsFilter.SingleForwardShadow_OneNeighbour (0 ms)
+[0.426s] 4: [ RUN      ] ScanShadowsFilter.SingleForwardShadow_AngleIncrementChanged
+[0.426s] 4: [       OK ] ScanShadowsFilter.SingleForwardShadow_AngleIncrementChanged (0 ms)
+[0.426s] 4: [----------] 11 tests from ScanShadowsFilter (0 ms total)
+[0.426s] 4: 
+[0.426s] 4: [----------] Global test environment tear-down
+[0.426s] 4: [==========] 11 tests from 1 test suite ran. (0 ms total)
+[0.426s] 4: [  PASSED  ] 11 tests.
+[0.427s] 4: -- run_test.py: return code 0
+[0.427s] 4: -- run_test.py: inject classname prefix into gtest result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml'
+[0.427s] 4: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_scan_shadows_filter.gtest.xml'
+[0.435s] 4/7 Test #4: test_scan_shadows_filter ...........   Passed    0.07 sec
+[0.435s] test 5
+[0.435s]     Start 5: test_angular_bounds_filter
+[0.435s] 
+[0.435s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml" "--package-name" "laser_filters" "--command" "/home/amr-pc/amr_ws/build/laser_filters/test_angular_bounds_filter" "--ros-args" "--gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml"
+[0.435s] 5: Working Directory: /home/amr-pc/amr_ws/build/laser_filters
+[0.436s] 5: Test timeout computed to be: 60
+[0.476s] 5: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+[0.477s] 5:  - /home/amr-pc/amr_ws/build/laser_filters/test_angular_bounds_filter --ros-args --gtest_output=xml:/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml
+[0.491s] 5: [==========] Running 5 tests from 1 test suite.
+[0.491s] 5: [----------] Global test environment set-up.
+[0.492s] 5: [----------] 5 tests from AngularBoundsFilterInPlace
+[0.492s] 5: [ RUN      ] AngularBoundsFilterInPlace.NonWrappedRange
+[0.492s] 5: [       OK ] AngularBoundsFilterInPlace.NonWrappedRange (0 ms)
+[0.492s] 5: [ RUN      ] AngularBoundsFilterInPlace.WrappedRange
+[0.492s] 5: [       OK ] AngularBoundsFilterInPlace.WrappedRange (0 ms)
+[0.492s] 5: [ RUN      ] AngularBoundsFilterInPlace.NonWrappedRangeReplaceWithMax
+[0.492s] 5: [       OK ] AngularBoundsFilterInPlace.NonWrappedRangeReplaceWithMax (0 ms)
+[0.492s] 5: [ RUN      ] AngularBoundsFilterInPlace.WrapBoundaries
+[0.492s] 5: [       OK ] AngularBoundsFilterInPlace.WrapBoundaries (0 ms)
+[0.492s] 5: [ RUN      ] AngularBoundsFilterInPlace.WrapAngleParamBehavior
+[0.492s] 5: [       OK ] AngularBoundsFilterInPlace.WrapAngleParamBehavior (0 ms)
+[0.492s] 5: [----------] 5 tests from AngularBoundsFilterInPlace (0 ms total)
+[0.492s] 5: 
+[0.492s] 5: [----------] Global test environment tear-down
+[0.492s] 5: [==========] 5 tests from 1 test suite ran. (0 ms total)
+[0.492s] 5: [  PASSED  ] 5 tests.
+[0.493s] 5: -- run_test.py: return code 0
+[0.493s] 5: -- run_test.py: inject classname prefix into gtest result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml'
+[0.493s] 5: -- run_test.py: verify result file '/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_angular_bounds_filter.gtest.xml'
+[0.500s] 5/7 Test #5: test_angular_bounds_filter .........   Passed    0.07 sec
+[0.500s] test 6
+[0.500s]     Start 6: test_test_polygon_filter.test.py
+[0.500s] 
+[0.500s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml" "--package-name" "laser_filters" "--output-file" "/home/amr-pc/amr_ws/build/laser_filters/launch_test/test_test_polygon_filter.test.py.txt" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/amr-pc/amr_ws/src/laser_filters/test/test_polygon_filter.test.py" "--junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml" "--package-name=laser_filters"
+[0.501s] 6: Working Directory: /home/amr-pc/amr_ws/build/laser_filters
+[0.501s] 6: Test timeout computed to be: 60
+[0.541s] 6: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+[0.541s] 6:  - /usr/bin/python3 -m launch_testing.launch_test /home/amr-pc/amr_ws/src/laser_filters/test/test_polygon_filter.test.py --junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_polygon_filter.test.py.xunit.xml --package-name=laser_filters
+[0.896s] 6: [INFO] [launch]: All log files can be found below /tmp/laser_filters_ros_logs/2026-10-12-12-16-26-008973-robot-pc-78
+[0.896s] 6: [INFO] [launch]: Default logging verbosity is set to INFO
+[0.901s] 6: test_polygon_filter (laser_filters.TestPolygonFilter.test_polygon_filter) ... getifaddrs: Operation not permitted
+[0.901s] 6: getifaddrs: Operation not permitted
+[0.901s] 6: getifaddrs: Operation not permitted
+[0.902s] 6: [37;1m2026-10-12 12:16:26.046 [31;1m[[37;1mTRANSPORT_UDP[31;1m Error] [37mError creating socket: Operation not permitted[34;1m -> Function [36minit[m
+[0.902s] 6: [37;1m2026-10-12 12:16:26.047 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUser transport failed to register.[34;1m -> Function [36mRTPSParticipantImpl[m
+[0.902s] 6: getifaddrs: Operation not permitted
+[0.902s] 6: getifaddrs: Operation not permitted
+[0.903s] 6: getifaddrs: Operation not permitted
+[0.903s] 6: getifaddrs: Operation not permitted
+[0.903s] 6: getifaddrs: Operation not permitted
+[0.903s] 6: getifaddrs: Operation not permitted
+[0.903s] 6: getifaddrs: Operation not permitted
+[0.903s] 6: getifaddrs: Operation not permitted
+[0.904s] 6: getifaddrs: Operation not permitted
+[0.905s] 6: getifaddrs: Operation not permitted
+[0.906s] 6: getifaddrs: Operation not permitted
+[0.907s] 6: [INFO] [scan_to_scan_filter_chain-1]: process started with pid [93]
+[0.917s] 6: getifaddrs: Operation not permitted
+[0.920s] 6: getifaddrs: Operation not permitted
+[0.920s] 6: getifaddrs: Operation not permitted
+[0.920s] 6: getifaddrs: Operation not permitted
+[0.920s] 6: getifaddrs: Operation not permitted
+[0.920s] 6: getifaddrs: Operation not permitted
+[0.920s] 6: getifaddrs: Operation not permitted
+[0.920s] 6: getifaddrs: Operation not permitted
+[0.920s] 6: getifaddrs: Operation not permitted
+[0.920s] 6: getifaddrs: Operation not permitted
+[0.921s] 6: getifaddrs: Operation not permitted
+[0.921s] 6: getifaddrs: Operation not permitted
+[0.921s] 6: getifaddrs: Operation not permitted
+[0.921s] 6: getifaddrs: Operation not permitted
+[0.921s] 6: getifaddrs: Operation not permitted
+[0.927s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.928s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.928s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.928s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.928s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.928s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.928s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.928s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.929s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.929s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.929s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.929s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.929s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.930s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.931s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.931s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.932s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.935s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.936s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.943s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.944s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.944s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.944s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.944s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.945s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.945s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.945s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.945s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.945s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.945s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.946s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.946s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.946s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.948s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.948s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.949s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.949s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.949s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.949s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.949s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.950s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.950s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.951s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.951s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.951s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.951s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.951s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.952s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.952s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.952s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.952s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.952s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.952s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.952s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.952s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.953s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.953s] 6: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[0.965s] 6: getifaddrs: Operation not permitted
+[1.067s] 6: getifaddrs: Operation not permitted
+[1.269s] 6: ok
+[1.269s] 6: 
+[1.269s] 6: ----------------------------------------------------------------------
+[1.269s] 6: Ran 1 test in 0.372s
+[1.269s] 6: 
+[1.269s] 6: OK
+[60.513s] 6/7 Test #6: test_test_polygon_filter.test.py ...***Timeout  60.01 sec
+[60.513s] test 7
+[60.513s]     Start 7: test_test_speckle_filter.test.py
+[60.513s] 
+[60.513s] 7: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml" "--package-name" "laser_filters" "--output-file" "/home/amr-pc/amr_ws/build/laser_filters/launch_test/test_test_speckle_filter.test.py.txt" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.test.py" "--junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml" "--package-name=laser_filters"
+[60.514s] 7: Working Directory: /home/amr-pc/amr_ws/build/laser_filters
+[60.514s] 7: Test timeout computed to be: 60
+[60.557s] 7: -- run_test.py: invoking following command in '/home/amr-pc/amr_ws/build/laser_filters':
+[60.557s] 7:  - /usr/bin/python3 -m launch_testing.launch_test /home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.test.py --junit-xml=/home/amr-pc/amr_ws/build/laser_filters/test_results/laser_filters/test_test_speckle_filter.test.py.xunit.xml --package-name=laser_filters
+[60.914s] 7: [INFO] [launch]: All log files can be found below /tmp/laser_filters_ros_logs/2026-10-12-12-17-26-024651-robot-pc-110
+[60.914s] 7: [INFO] [launch]: Default logging verbosity is set to INFO
+[60.920s] 7: test_speckle_filter (laser_filters.TestSpeckleFilter.test_speckle_filter) ... getifaddrs: Operation not permitted
+[60.920s] 7: getifaddrs: Operation not permitted
+[60.920s] 7: getifaddrs: Operation not permitted
+[60.921s] 7: [37;1m2026-10-12 12:17:26.066 [31;1m[[37;1mTRANSPORT_UDP[31;1m Error] [37mError creating socket: Operation not permitted[34;1m -> Function [36minit[m
+[60.921s] 7: [37;1m2026-10-12 12:17:26.066 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUser transport failed to register.[34;1m -> Function [36mRTPSParticipantImpl[m
+[60.922s] 7: getifaddrs: Operation not permitted
+[60.922s] 7: getifaddrs: Operation not permitted
+[60.922s] 7: getifaddrs: Operation not permitted
+[60.922s] 7: getifaddrs: Operation not permitted
+[60.922s] 7: getifaddrs: Operation not permitted
+[60.922s] 7: getifaddrs: Operation not permitted
+[60.922s] 7: getifaddrs: Operation not permitted
+[60.922s] 7: getifaddrs: Operation not permitted
+[60.927s] 7: getifaddrs: Operation not permitted
+[60.927s] 7: getifaddrs: Operation not permitted
+[60.927s] 7: getifaddrs: Operation not permitted
+[60.937s] 7: [INFO] [scan_to_scan_filter_chain-1]: process started with pid [114]
+[60.937s] 7: [INFO] [scan_to_scan_filter_chain-2]: process started with pid [128]
+[60.939s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.939s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.939s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.943s] 7: getifaddrs: Operation not permitted
+[60.944s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.944s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.944s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.944s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.944s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.945s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.945s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.945s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.945s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.945s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.945s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.946s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.947s] 7: getifaddrs: Operation not permitted
+[60.947s] 7: getifaddrs: Operation not permitted
+[60.947s] 7: getifaddrs: Operation not permitted
+[60.947s] 7: getifaddrs: Operation not permitted
+[60.947s] 7: getifaddrs: Operation not permitted
+[60.947s] 7: getifaddrs: Operation not permitted
+[60.948s] 7: getifaddrs: Operation not permitted
+[60.948s] 7: getifaddrs: Operation not permitted
+[60.948s] 7: getifaddrs: Operation not permitted
+[60.948s] 7: getifaddrs: Operation not permitted
+[60.948s] 7: getifaddrs: Operation not permitted
+[60.948s] 7: getifaddrs: Operation not permitted
+[60.949s] 7: getifaddrs: Operation not permitted
+[60.949s] 7: getifaddrs: Operation not permitted
+[60.949s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.950s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.950s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.950s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.950s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.952s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.956s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.956s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.956s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.956s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.957s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.957s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.957s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.957s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.957s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.958s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.958s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.958s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.958s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.959s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.959s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.959s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.959s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.959s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.960s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.960s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.960s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.961s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.961s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.962s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.962s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.962s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.962s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.963s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.963s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.963s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.963s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.963s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.963s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.964s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.964s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.964s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.964s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.964s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.964s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.964s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.964s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.964s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.964s] 7: [scan_to_scan_filter_chain-1] getifaddrs: Operation not permitted
+[60.968s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.969s] 7: [scan_to_scan_filter_chain-2] getifaddrs: Operation not permitted
+[60.987s] 7: getifaddrs: Operation not permitted
+[61.088s] 7: getifaddrs: Operation not permitted
+[61.088s] 7: getifaddrs: Operation not permitted
+[61.290s] 7: ok
+[61.290s] 7: 
+[61.290s] 7: ----------------------------------------------------------------------
+[61.290s] 7: Ran 1 test in 0.374s
+[61.290s] 7: 
+[61.290s] 7: OK

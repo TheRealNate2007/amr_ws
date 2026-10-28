@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<robot name="amr_base" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:arg name="use_can" default="true"/>
+  <xacro:arg name="can_interface" default="can0"/>
+  <xacro:arg name="node_id" default="1"/>
+
+  <xacro:property name="wheel_radius" value="0.08475"/>
+  <xacro:property name="wheel_separation" value="0.48"/>
+  <xacro:property name="wheel_width" value="0.045"/>
+  <xacro:property name="base_length" value="0.60"/>
+  <xacro:property name="base_width" value="0.42"/>
+  <xacro:property name="base_height" value="0.1695"/>
+
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0"/>
+      <geometry>
+        <box size="${base_length} ${base_width} ${base_height}"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.15 0.17 0.18 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0"/>
+      <geometry>
+        <box size="${base_length} ${base_width} ${base_height}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0"/>
+      <mass value="20.0"/>
+      <inertia ixx="0.40" ixy="0.0" ixz="0.0" iyy="0.70" iyz="0.0" izz="0.90"/>
+    </inertial>
+  </link>
+
+  <link name="left_wheel_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.57079632679 0 0"/>
+      <geometry>
+        <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0.02 0.02 0.02 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.57079632679 0 0"/>
+      <geometry>
+        <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <inertia ixx="0.003" ixy="0.0" ixz="0.0" iyy="0.003" iyz="0.0" izz="0.005"/>
+    </inertial>
+  </link>
+
+  <link name="right_wheel_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.57079632679 0 0"/>
+      <geometry>
+        <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.57079632679 0 0"/>
+      <geometry>
+        <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <inertia ixx="0.003" ixy="0.0" ixz="0.0" iyy="0.003" iyz="0.0" izz="0.005"/>
+    </inertial>
+  </link>
+
+  <joint name="left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_wheel_link"/>
+    <origin xyz="0 ${wheel_separation / 2.0} ${wheel_radius}" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <joint name="right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_wheel_link"/>
+    <origin xyz="0 ${-wheel_separation / 2.0} ${wheel_radius}" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- LiDAR frame -->
+  <link name="laser_frame"/>
+  <joint name="laser_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="laser_frame"/>
+    <!-- Replace these values with the measured LiDAR position -->
+    <origin xyz="0.537 0.0 0.215" rpy="0 0 ${pi}"/>
+  </joint>
+
+
+  <ros2_control name="AMRHardware" type="system">
+    <hardware>
+      <plugin>amr_hardware/DiffDriveSystem</plugin>
+      <param name="left_wheel_name">left_wheel_joint</param>
+      <param name="right_wheel_name">right_wheel_joint</param>
+      <param name="use_can">$(arg use_can)</param>
+      <param name="can_interface">$(arg can_interface)</param>
+      <param name="node_id">$(arg node_id)</param>
+      <param name="configure_tpdo">true</param>
+      <param name="max_wheel_velocity_radps">14.55</param>
+      <param name="left_command_sign">1</param>
+      <param name="right_command_sign">-1</param>
+      <param name="feedback_sign_left">1.0</param>
+      <param name="feedback_sign_right">-1.0</param>
+    </hardware>
+
+    <joint name="left_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="right_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+</robot>

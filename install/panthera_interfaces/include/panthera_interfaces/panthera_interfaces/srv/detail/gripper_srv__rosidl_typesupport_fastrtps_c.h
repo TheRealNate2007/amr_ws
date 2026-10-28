@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/build/panthera_interfaces/rosidl_typesupport_fastrtps_c/panthera_interfaces/srv/detail/gripper_srv__rosidl_typesupport_fastrtps_c.h

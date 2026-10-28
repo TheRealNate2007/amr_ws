@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="10" failures="0" disabled="0" errors="0" time="0." timestamp="2026-10-12T12:16:25.496" name="AllTests">
+  <testsuite name="SpeckleFilter_Distance" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-12T12:16:25.496">
+    <testcase name="SingleSpeckle" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.cpp" line="52" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.496" classname="laser_filters.SpeckleFilter_Distance" />
+    <testcase name="TwoDistantSpeckles" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.cpp" line="76" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.496" classname="laser_filters.SpeckleFilter_Distance" />
+    <testcase name="TwoNearSpeckles" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.cpp" line="100" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.496" classname="laser_filters.SpeckleFilter_Distance" />
+    <testcase name="TwoSpecklesAtEdge" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.cpp" line="124" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.496" classname="laser_filters.SpeckleFilter_Distance" />
+    <testcase name="SinglePeak" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.cpp" line="148" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.496" classname="laser_filters.SpeckleFilter_Distance" />
+    <testcase name="TwoFarPeaks" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.cpp" line="172" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.496" classname="laser_filters.SpeckleFilter_Distance" />
+    <testcase name="TwoNearPeaks" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.cpp" line="197" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.496" classname="laser_filters.SpeckleFilter_Distance" />
+    <testcase name="TwoPeaksAtEdge" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.cpp" line="221" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.496" classname="laser_filters.SpeckleFilter_Distance" />
+    <testcase name="MultiplePlateausNoSpeckles" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.cpp" line="245" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.496" classname="laser_filters.SpeckleFilter_Distance" />
+    <testcase name="MultiplePlateausBiggerWindow" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_speckle_filter.cpp" line="269" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.496" classname="laser_filters.SpeckleFilter_Distance" />
+  </testsuite>
+</testsuites>

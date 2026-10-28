@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/build/panthera_commander/ament_cmake_core/panthera_commanderConfig-version.cmake

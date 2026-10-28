@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="0" errors="0" time="0." timestamp="2026-10-12T12:16:25.636" name="AllTests">
+  <testsuite name="AngularBoundsFilterInPlace" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-12T12:16:25.636">
+    <testcase name="NonWrappedRange" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_angular_bounds_filter.cpp" line="48" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.636" classname="laser_filters.AngularBoundsFilterInPlace" />
+    <testcase name="WrappedRange" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_angular_bounds_filter.cpp" line="79" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.636" classname="laser_filters.AngularBoundsFilterInPlace" />
+    <testcase name="NonWrappedRangeReplaceWithMax" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_angular_bounds_filter.cpp" line="108" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.636" classname="laser_filters.AngularBoundsFilterInPlace" />
+    <testcase name="WrapBoundaries" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_angular_bounds_filter.cpp" line="138" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.636" classname="laser_filters.AngularBoundsFilterInPlace" />
+    <testcase name="WrapAngleParamBehavior" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_angular_bounds_filter.cpp" line="170" status="run" result="completed" time="0." timestamp="2026-10-12T12:16:25.636" classname="laser_filters.AngularBoundsFilterInPlace" />
+  </testsuite>
+</testsuites>

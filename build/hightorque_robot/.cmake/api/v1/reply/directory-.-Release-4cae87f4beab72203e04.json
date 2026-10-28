@@ -1,0 +1,316 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"include",
+			"find_package",
+			"ament_cmake_symlink_install_targets",
+			"ament_cmake_symlink_install_directory"
+		],
+		"files" : 
+		[
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+			"/opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_directory.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"file" : 3,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 41,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 50,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 43,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 43,
+				"parent" : 18
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 43,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 43,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 26
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"scriptFile" : "/home/amr-pc/amr_ws/build/hightorque_robot/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+			"type" : "script"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libhightorque_robot.so.4.4.7",
+				"libhightorque_robot.so.4"
+			],
+			"targetId" : "hightorque_robot::@6890427a1f51a3e7e1df",
+			"targetIndex" : 7,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libhightorque_robot.so"
+			],
+			"targetId" : "hightorque_robot::@6890427a1f51a3e7e1df",
+			"targetIndex" : 7,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/hardware/robot.hpp",
+				"include/hardware/motor.hpp",
+				"include/hardware/canport.hpp",
+				"include/hardware/canboard.hpp",
+				"include/parse_robot_params.hpp",
+				"include/serial_struct.hpp",
+				"include/serial_driver.hpp",
+				"include/crc/crc8.hpp",
+				"include/crc/crc16.hpp",
+				"include/panthera/Panthera.hpp",
+				"msg/motor_msg/motor_msg.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "include/motor_msg",
+			"paths" : 
+			[
+				{
+					"from" : "msg/motor_msg",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "share/hightorque_robot/robot_param",
+			"paths" : 
+			[
+				{
+					"from" : "robot_param",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "share/hightorque_robot/urdf",
+			"paths" : 
+			[
+				{
+					"from" : "Panthera-HT_description/urdf",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/hightorque_robot",
+			"exportName" : "hightorque_robotTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "hightorque_robot::@6890427a1f51a3e7e1df",
+					"index" : 7
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/8f991f9db2e053642bbf2fc328252ce5/hightorque_robotTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

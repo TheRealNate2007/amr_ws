@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/src/with_gripper_config/launch/static_virtual_joint_tfs.launch.py

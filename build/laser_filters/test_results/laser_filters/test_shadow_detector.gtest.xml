@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" disabled="0" errors="0" time="0.011" timestamp="2026-10-12T12:16:25.420" name="AllTests">
+  <testsuite name="ScanShadowDetector" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.011" timestamp="2026-10-12T12:16:25.420">
+    <testcase name="ShadowDetectionGeometry" file="/home/amr-pc/amr_ws/src/laser_filters/test/test_shadow_detector.cpp" line="58" status="run" result="completed" time="0.011" timestamp="2026-10-12T12:16:25.420" classname="laser_filters.ScanShadowDetector" />
+  </testsuite>
+</testsuites>

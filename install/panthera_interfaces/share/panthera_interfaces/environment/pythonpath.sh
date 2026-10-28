@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/build/panthera_interfaces/ament_cmake_environment_hooks/pythonpath.sh

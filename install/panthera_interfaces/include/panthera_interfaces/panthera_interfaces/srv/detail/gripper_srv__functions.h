@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/build/panthera_interfaces/rosidl_generator_c/panthera_interfaces/srv/detail/gripper_srv__functions.h

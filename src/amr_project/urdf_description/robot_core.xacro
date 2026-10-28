@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <material name="white">
+        <color rgba="1.0 1.0 1.0 1.0"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+    </material>
+
+    <material name="gray">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+    </material>
+
+    <material name="orange">
+        <color rgba="1.0 0.5 0.0 1.0"/>
+    </material>
+
+    <link name="base_link"/>
+
+    <xacro:macro name="joint" params="name type parent child x y z roll pitch yaw axis_x axis_y axis_z">
+        <joint name="${name}" type="${type}">
+            <parent link="${parent}"/>
+            <child link="${child}"/>
+            <origin xyz="${x} ${y} ${z}" rpy="${roll} ${pitch} ${yaw}"/>
+            <axis xyz="${axis_x} ${axis_y} ${axis_z}"/>
+        </joint>
+    </xacro:macro>
+    
+    <xacro:property name="ninety_degree_to_radians" value="1.5708" />
+    <xacro:joint name="chassis_joint_1" type="fixed" parent="base_link" child="chassis_1" x="-0.085" y="0" z="0" roll="0" pitch="0" yaw="0" axis_x="0" axis_y="0" axis_z="0"/>
+    <xacro:joint name="chassis_joint_2" type="fixed" parent="base_link" child="chassis_2" x="-0.085" y="0" z="0" roll="0" pitch="0" yaw="0" axis_x="0" axis_y="0" axis_z="0"/>
+    <xacro:joint name="chassis_joint_3" type="fixed" parent="base_link" child="chassis_3" x="-0.085" y="0" z="0" roll="0" pitch="0" yaw="0" axis_x="0" axis_y="0" axis_z="0"/>
+
+    <xacro:joint name="chassis_joint_4" type="fixed" parent="base_link" child="chassis_4" x="-0.085" y="0" z="0" roll="0" pitch="0" yaw="0" axis_x="0" axis_y="0" axis_z="0"/>
+    <xacro:joint name="chassis_joint_5" type="fixed" parent="base_link" child="chassis_5" x="0.49" y="0" z="0" roll="0" pitch="0" yaw="0" axis_x="0" axis_y="0" axis_z="0"/>
+    <xacro:joint name="chassis_joint_6" type="fixed" parent="base_link" child="chassis_6" x="0.44" y="0" z="0" roll="0" pitch="0" yaw="0" axis_x="0" axis_y="0" axis_z="0"/>
+    <xacro:joint name="chassis_joint_7" type="fixed" parent="base_link" child="chassis_7" x="0.17" y="-0.1" z="0.075" roll="0" pitch="0" yaw="0" axis_x="0" axis_y="0" axis_z="0"/>
+
+    <xacro:joint name="back_left_wheel_joint" type="continuous" parent="base_link" child="back_left_wheel" x="0" y="0.23" z="0" roll="0" pitch="0" yaw="0" axis_x="0" axis_y="1" axis_z="0"/>
+    <xacro:joint name="back_right_wheel_joint" type="continuous" parent="base_link" child="back_right_wheel" x="0"   y="-0.23" z="0" roll="0" pitch="0" yaw="0" axis_x="0" axis_y="1" axis_z="0"/>
+
+
+
+    <xacro:macro name="chassis" params="link_number color rx ry rz length width height x y z multi_x multi_y multi_z mesh_file">
+        <link name="chassis_${link_number}">
+            <visual>
+                <origin rpy="${rx} ${ry} ${rz}" xyz="${x} ${y} ${z}"/> 
+                <geometry>
+                    <!-- box size="0.3 0.3 0.15" -->
+                    <mesh filename="${mesh_file}" 
+                        scale="${multi_x * length} ${multi_y * width} ${multi_z * height}"/>
+                </geometry>
+                <material name="${color}"/>
+            </visual>
+        </link>
+
+    </xacro:macro>
+
+    <xacro:property name="ninety_degree_to_radians" value="1.5708" />
+    <xacro:chassis link_number="1" color="gray" rx="0" ry="0" rz="${-ninety_degree_to_radians}" length="5" width="60" height="5" x="0.0" y="0.0" z="0.05" 
+        multi_x="0.0005" multi_y="0.0001" multi_z="0.0005" mesh_file="package://amr_project/frames/40x20x100VSlotExtrusion.stl"/>
+    
+    <xacro:chassis link_number="2" color="gray" rx="0" ry="0" rz="${-ninety_degree_to_radians}" length="5" width="60" height="5" x="0.0" y="-0.175" z="0.05" 
+        multi_x="0.0005" multi_y="0.0001" multi_z="0.0005" mesh_file="package://amr_project/frames/20x20x100VSlotExtrusion.stl"/>
+    
+    <xacro:chassis link_number="3" color="gray" rx="0" ry="0" rz="${-ninety_degree_to_radians}" length="5" width="6０" height="5" x="0.0" y="0.175" z="0.05" 
+        multi_x="0.0005" multi_y="0.0001" multi_z="0.0005"     mesh_file="package://amr_project/frames/20x20x100VSlotExtrusion.stl"/>
+
+    <xacro:chassis link_number="4" color="gray" rx="0" ry="0" rz="0" length="5" width="40" height="5" x="0.025" y="-0.2" z="0.0" 
+        multi_x="0.0005" multi_y="0.0001" multi_z="0.0005"     mesh_file="package://amr_project/frames/20x20x100VSlotExtrusion.stl"/>
+
+    <xacro:chassis link_number="5" color="gray" rx="0" ry="0" rz="0" length="5" width="40" height="5" x="0.0" y="-0.2" z="0.0" 
+        multi_x="0.0005" multi_y="0.0001" multi_z="0.0005"     mesh_file="package://amr_project/frames/20x20x100VSlotExtrusion.stl"/>
+
+    <xacro:chassis link_number="6" color="gray" rx="0" ry="0" rz="0" length="5" width="40" height="5" x="0.0" y="-0.2" z="0.0" 
+        multi_x="0.0005" multi_y="0.0001" multi_z="0.0005"     mesh_file="package://amr_project/frames/20x20x100VSlotExtrusion.stl"/>
+
+    <xacro:chassis link_number="7" color="orange" rx="${ninety_degree_to_radians}" ry="0" rz="0" length="1" width="1" height="1" x="0.0" y="0.0" z="0.0" 
+        multi_x="1" multi_y="1" multi_z="1"     mesh_file="package://amr_project/frames/ZLAC8015D.stl"/>
+
+
+    <xacro:macro name="wheel" params="wheel_position rx ry rz length width height x y z multi_x multi_y multi_z mesh_file">
+        <link name="${wheel_position}_wheel">
+            <visual>
+                <origin rpy="${rx} ${ry} ${rz}" xyz="${x} ${y} ${z}"/>
+                <geometry>
+                    <!-- box size="0.3 0.3 0.15" -->
+                    <mesh filename="${mesh_file}" 
+                        scale="${multi_x * length} ${multi_y * width} ${multi_z * height}"/>
+                </geometry>
+                <material name="black"/>
+            </visual>
+        </link>
+    </xacro:macro>
+
+    <xacro:wheel wheel_position="back_left" rx="0" ry="0" rz="${ninety_degree_to_radians}" length="1" width="1" height="1" x="0.0" y="0.0" z="0.0" 
+        multi_x="1" multi_y="1" multi_z="1" mesh_file="package://amr_project/frames/ZLLG65A..V3.stl"/>
+
+    <xacro:wheel wheel_position="back_right" rx="0" ry="0" rz="${-ninety_degree_to_radians}" length="1" width="1" height="1" x="0.0" y="0.0" z="0.0" 
+        multi_x="1" multi_y="1" multi_z="1" mesh_file="package://amr_project/frames/ZLLG65A..V3.stl"/>
+
+
+</robot>

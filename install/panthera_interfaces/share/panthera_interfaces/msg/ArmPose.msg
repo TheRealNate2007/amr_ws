@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/src/panthera_interfaces/msg/ArmPose.msg

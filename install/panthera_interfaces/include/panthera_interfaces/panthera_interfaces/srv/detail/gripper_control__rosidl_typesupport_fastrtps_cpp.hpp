@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/build/panthera_interfaces/rosidl_typesupport_fastrtps_cpp/panthera_interfaces/srv/detail/gripper_control__rosidl_typesupport_fastrtps_cpp.hpp

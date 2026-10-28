@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "panthera_interfaces__rs",
+		"source" : "/home/amr-pc/amr_ws/build/panthera_interfaces/panthera_interfaces__rs"
+	}
+}

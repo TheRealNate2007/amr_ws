@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/build/panthera_interfaces/rosidl_typesupport_introspection_c/panthera_interfaces/msg/detail/pos_cmd__rosidl_typesupport_introspection_c.h

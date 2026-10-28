@@ -1,0 +1,3 @@
+# generated from colcon_core/shell/template/hook_prepend_value.sh.em
+
+_colcon_prepend_unique_value PYTHONPATH "/home/amr-pc/amr_ws/build/keyboard_cmd_vel"

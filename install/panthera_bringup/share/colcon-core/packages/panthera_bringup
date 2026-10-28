@@ -1,0 +1,1 @@
+controller_manager:moveit_ros_move_group:panthera_ht_description_with_finger:robot_state_publisher:rviz2:with_gripper_config:xacro

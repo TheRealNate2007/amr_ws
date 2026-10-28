@@ -1,0 +1,14 @@
+test_scan_filter_chain 0 0
+test_shadow_detector 1 0.0641483
+test_speckle_filter 0 0
+test_scan_shadows_filter 0 0
+test_angular_bounds_filter 0 0
+test_test_polygon_filter.test.py 0 0
+test_test_speckle_filter.test.py 0 0
+---
+test_scan_filter_chain
+test_speckle_filter
+test_scan_shadows_filter
+test_angular_bounds_filter
+test_test_polygon_filter.test.py
+test_test_speckle_filter.test.py

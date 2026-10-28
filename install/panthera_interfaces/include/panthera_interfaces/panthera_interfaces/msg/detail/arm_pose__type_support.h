@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/build/panthera_interfaces/rosidl_generator_c/panthera_interfaces/msg/detail/arm_pose__type_support.h

@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/build/with_gripper_config/ament_cmake_environment_hooks/local_setup.bash

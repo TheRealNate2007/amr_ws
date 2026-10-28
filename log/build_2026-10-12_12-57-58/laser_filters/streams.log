@@ -1,0 +1,113 @@
+[0.008s] Invoking command in '/home/amr-pc/amr_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amr-pc/amr_ws/build/laser_filters -- -j16 -l16
+[0.055s] [ 16%] Built target gtest_main
+[0.055s] [ 16%] Built target gtest
+[0.056s] [ 24%] Built target scan_to_scan_filter_chain
+[0.057s] [ 32%] Built target scan_to_cloud_filter_chain
+[0.057s] [ 40%] Built target laser_scan_filters
+[0.074s] [ 48%] Built target test_shadow_detector
+[0.074s] [ 56%] Built target test_scan_filter_chain
+[0.076s] [ 72%] Built target test_angular_bounds_filter
+[0.076s] [ 72%] Built target test_speckle_filter
+[0.076s] [ 80%] Built target test_scan_shadows_filter
+[0.077s] [ 92%] Built target laser_filter_chains
+[0.096s] [100%] Built target generic_laser_filter_node
+[0.105s] Invoked command in '/home/amr-pc/amr_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amr-pc/amr_ws/build/laser_filters -- -j16 -l16
+[0.113s] Invoking command in '/home/amr-pc/amr_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amr-pc/amr_ws/build/laser_filters
+[0.119s] -- Install configuration: ""
+[0.119s] -- Execute custom install script
+[0.119s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain
+[0.119s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain
+[0.119s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters//laser_filters_plugins.xml
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/angular_bounds_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/angular_bounds_filter_in_place.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/array_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/binning_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/box_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/footprint_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/intensity_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/interpolation_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/median_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/median_spatial_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/polygon_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/range_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/scan_blob_filter.h
+[0.120s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/scan_mask_filter.h
+[0.121s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/scan_shadow_detector.h
+[0.121s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/scan_shadows_filter.h
+[0.121s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/sector_filter.h
+[0.121s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/speckle_filter.h
+[0.121s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/library_path.sh
+[0.121s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/library_path.dsv
+[0.121s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/lib/liblaser_scan_filters.so
+[0.121s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/lib/liblaser_filter_chains.so
+[0.121s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/lib/laser_filters/generic_laser_filter_node
+[0.122s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/angular_filter_example.launch.py
+[0.122s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/angular_filter_example.yaml
+[0.122s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/angular_filter_in_place_example.launch.py
+[0.122s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/angular_filter_in_place_example.yaml
+[0.122s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/bin_filter_example.launch.py
+[0.122s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/bin_filter_example.yaml
+[0.122s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.launch.py
+[0.122s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.yaml
+[0.122s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.launch.py
+[0.122s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.yaml
+[0.122s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.launch.py
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.yaml
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.launch.py
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.yaml
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.launch.py
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.yaml
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter.launch.py
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter.launch.xml
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter_example.yaml
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.launch.py
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.yaml
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.launch.py
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.yaml
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/polygon_filter_example.launch.py
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/polygon_filter_example.yaml
+[0.123s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.launch.py
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.yaml
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/scan_blob_filter_example.launch.py
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/scan_blob_filter_example.yaml
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/sector_filter_example.launch.py
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/sector_filter_example.yaml
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.launch.py
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.yaml
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.launch
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.yaml
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/__pycache__/test_polygon_filter.test.cpython-312.pyc
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/__pycache__/test_speckle_filter.test.cpython-312.pyc
+[0.124s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/fake_laser.py
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_angular_bounds_filter.cpp
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_polygon_filter.test.py
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_polygon_filter.yaml
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.cpp
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.launch
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.yaml
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_scan_shadows_filter.cpp
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_shadow_detector.cpp
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.cpp
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.test.py
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.yaml
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/ament_index/resource_index/package_run_dependencies/laser_filters
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/ament_index/resource_index/parent_prefix_path/laser_filters
+[0.125s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.sh
+[0.126s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.dsv
+[0.126s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/path.sh
+[0.126s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/path.dsv
+[0.126s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/local_setup.bash
+[0.126s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/local_setup.sh
+[0.126s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/local_setup.zsh
+[0.126s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/local_setup.dsv
+[0.126s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/package.dsv
+[0.133s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/ament_index/resource_index/packages/laser_filters
+[0.133s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/ament_index/resource_index/filters__pluginlib__plugin/laser_filters
+[0.133s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/ament_index/resource_index/rclcpp_components/laser_filters
+[0.134s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.134s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.134s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_libraries-extras.cmake
+[0.134s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig.cmake
+[0.134s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig-version.cmake
+[0.134s] -- Up-to-date symlink: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/package.xml
+[0.135s] Invoked command in '/home/amr-pc/amr_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amr-pc/amr_ws/build/laser_filters

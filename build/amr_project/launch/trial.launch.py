@@ -1,0 +1,1 @@
+/home/amr-pc/amr_ws/src/amr_project/launch/trial.launch.py

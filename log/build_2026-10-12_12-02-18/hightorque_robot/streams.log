@@ -1,0 +1,320 @@
+[0.008s] Invoking command in '/home/amr-pc/amr_ws/build/hightorque_robot': CMAKE_PREFIX_PATH=/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_commander:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_arm_control:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/laser_filters:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amr-pc/amr_ws/src/hightorque_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amr-pc/amr_ws/install/hightorque_robot
+[0.050s] -- The C compiler identification is GNU 13.3.0
+[0.101s] -- The CXX compiler identification is GNU 13.3.0
+[0.112s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.341s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.352s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.749s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.849s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.913s] -- Setting build type to 'Release' as none was specified.
+[0.919s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[0.920s] -- Checking for module 'glib-2.0'
+[0.940s] --   Found glib-2.0, version 2.80.0
+[0.987s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__std_gnu99
+[1.074s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__std_gnu99 - Success
+[1.075s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wall
+[1.145s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wall - Success
+[1.146s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wshadow
+[1.211s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wshadow - Success
+[1.211s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wuninitialized
+[1.275s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wuninitialized - Success
+[1.275s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wunused_variable
+[1.350s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wunused_variable - Success
+[1.351s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Werror_return_type
+[1.437s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Werror_return_type - Success
+[1.438s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wno_unused_parameter
+[1.517s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wno_unused_parameter - Success
+[1.518s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wno_format_zero_length
+[1.610s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wno_format_zero_length - Success
+[1.611s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wno_stringop_truncation
+[1.708s] -- Performing Test CMAKE_C_COMPILER_SUPPORTS__Wno_stringop_truncation - Success
+[1.708s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wall
+[1.796s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wall - Success
+[1.796s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wshadow
+[1.883s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wshadow - Success
+[1.883s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wuninitialized
+[1.982s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wuninitialized - Success
+[1.983s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wunused_variable
+[2.088s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wunused_variable - Success
+[2.089s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Werror_return_type
+[2.188s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Werror_return_type - Success
+[2.189s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wno_unused_parameter
+[2.289s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wno_unused_parameter - Success
+[2.290s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wno_format_zero_length
+[2.384s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wno_format_zero_length - Success
+[2.384s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wno_stringop_truncation
+[2.483s] -- Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wno_stringop_truncation - Success
+[2.483s] -- Building LCM 1.5.1 (ABI v1)
+[2.483s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.574s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.576s] -- Found Threads: TRUE  
+[2.577s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.666s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.667s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.773s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.773s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.867s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.870s] -- Doxygen was not found; documentation generation will be incomplete
+[2.875s] -- CPack: Packages will be placed under /home/amr-pc/amr_ws/build/hightorque_robot/packages
+[2.888s] -- Found ament_index_cpp: 1.8.4 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[2.892s] -- Found libserialport library: /usr/lib/x86_64-linux-gnu/libserialport.so
+[2.901s] -- pinocchio not found, skipping impedance control examples
+[2.969s] -- Configuring done (3.0s)
+[3.005s] -- Generating done (0.0s)
+[3.013s] -- Build files have been written to: /home/amr-pc/amr_ws/build/hightorque_robot
+[3.024s] Invoked command in '/home/amr-pc/amr_ws/build/hightorque_robot' returned '0': CMAKE_PREFIX_PATH=/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_commander:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_arm_control:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/laser_filters:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amr-pc/amr_ws/src/hightorque_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amr-pc/amr_ws/install/hightorque_robot
+[3.025s] Invoking command in '/home/amr-pc/amr_ws/build/hightorque_robot': CMAKE_PREFIX_PATH=/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_commander:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_arm_control:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/laser_filters:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amr-pc/amr_ws/build/hightorque_robot -- -j16 -l16
+[3.074s] [  3%] [32mBuilding CXX object third_part/serial_cmake/CMakeFiles/serial_cmake.dir/src/impl/unix.cc.o[0m
+[3.074s] [  3%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm.dir/lcm.c.o[0m
+[3.074s] [  3%] [32mBuilding CXX object third_part/serial_cmake/CMakeFiles/serial_cmake.dir/src/serial.cc.o[0m
+[3.076s] [  4%] [32mBuilding C object third_part/lcm/lcmgen/CMakeFiles/lcm-gen.dir/emit_csharp.c.o[0m
+[3.078s] [  6%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm.dir/eventlog.c.o[0m
+[3.078s] [  6%] [34m[1mGenerating lcmUtilities.cmake[0m
+[3.078s] [  7%] [32mBuilding CXX object third_part/serial_cmake/CMakeFiles/serial_cmake.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[3.079s] [  8%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm-static.dir/eventlog.c.o[0m
+[3.079s] [  9%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm.dir/lcm_memq.c.o[0m
+[3.080s] [ 10%] [32mBuilding C object third_part/lcm/lcmgen/CMakeFiles/lcm-gen.dir/emit_c.c.o[0m
+[3.087s] [ 11%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm.dir/lcm_file.c.o[0m
+[3.087s] [ 13%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm-static.dir/lcm.c.o[0m
+[3.088s] [ 14%] [32mBuilding C object third_part/lcm/lcmgen/CMakeFiles/lcm-gen.dir/emit_cpp.c.o[0m
+[3.088s] [ 15%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm-static.dir/lcm_file.c.o[0m
+[3.091s] [ 16%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm.dir/lcm_mpudpm.c.o[0m
+[3.093s] [ 17%] [32mBuilding C object third_part/lcm/lcmgen/CMakeFiles/lcm-gen.dir/emit_go.c.o[0m
+[3.156s] [ 17%] Built target lcm_use_file
+[3.184s] [ 18%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm.dir/lcm_tcpq.c.o[0m
+[3.207s] [ 19%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm.dir/lcm_udpm.c.o[0m
+[3.217s] [ 20%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm-static.dir/lcm_memq.c.o[0m
+[3.300s] [ 21%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm-static.dir/lcm_mpudpm.c.o[0m
+[3.363s] [ 22%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm.dir/ringbuffer.c.o[0m
+[3.420s] [ 23%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm-static.dir/lcm_tcpq.c.o[0m
+[3.441s] [ 25%] [32mBuilding C object third_part/lcm/lcmgen/CMakeFiles/lcm-gen.dir/emit_java.c.o[0m
+[3.449s] [ 26%] [32mBuilding C object third_part/lcm/lcmgen/CMakeFiles/lcm-gen.dir/emit_lua.c.o[0m
+[3.499s] [ 27%] [32mBuilding C object third_part/lcm/lcmgen/CMakeFiles/lcm-gen.dir/emit_python.c.o[0m
+[3.531s] [ 28%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm.dir/udpm_util.c.o[0m
+[3.558s] [ 29%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm-static.dir/lcm_udpm.c.o[0m
+[3.885s] [ 30%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm.dir/lcmtypes/channel_port_map_update_t.c.o[0m
+[3.892s] [ 31%] [32mBuilding C object third_part/lcm/lcmgen/CMakeFiles/lcm-gen.dir/getopt.c.o[0m
+[3.916s] [ 32%] [32mBuilding C object third_part/lcm/lcmgen/CMakeFiles/lcm-gen.dir/lcmgen.c.o[0m
+[3.918s] [ 33%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm.dir/lcmtypes/channel_to_port_t.c.o[0m
+[4.026s] [ 34%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm-static.dir/ringbuffer.c.o[0m
+[4.033s] [ 35%] [32mBuilding C object third_part/lcm/lcmgen/CMakeFiles/lcm-gen.dir/main.c.o[0m
+[4.107s] [ 36%] [32m[1mLinking C shared library liblcm.so[0m
+[4.112s] [ 38%] [32mBuilding C object third_part/lcm/lcmgen/CMakeFiles/lcm-gen.dir/tokenize.c.o[0m
+[4.119s] [ 39%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm-static.dir/lcmtypes/channel_port_map_update_t.c.o[0m
+[4.126s] [ 40%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm-static.dir/udpm_util.c.o[0m
+[4.161s] [ 41%] [32mBuilding C object third_part/lcm/lcm/CMakeFiles/lcm-static.dir/lcmtypes/channel_to_port_t.c.o[0m
+[4.239s] [ 41%] Built target lcm
+[4.328s] [ 42%] [32m[1mLinking C static library liblcm.a[0m
+[4.414s] [ 42%] Built target lcm-static
+[4.444s] [ 43%] [32mBuilding C object third_part/lcm/lcm-logger/CMakeFiles/lcm-logplayer.dir/lcm_logplayer.c.o[0m
+[4.444s] [ 44%] [32mBuilding C object third_part/lcm/liblcm-test/CMakeFiles/lcm-sink.dir/lcm-sink.c.o[0m
+[4.445s] [ 45%] [32mBuilding C object third_part/lcm/liblcm-test/CMakeFiles/lcm-tester.dir/lcm-tester.c.o[0m
+[4.450s] [ 46%] [32mBuilding C object third_part/lcm/liblcm-test/CMakeFiles/lcm-buftest-receiver.dir/buftest-receiver.c.o[0m
+[4.451s] [ 47%] [32mBuilding C object third_part/lcm/lcm-logger/CMakeFiles/lcm-logger.dir/lcm_logger.c.o[0m
+[4.453s] [ 48%] [32mBuilding C object third_part/lcm/lcm-logger/CMakeFiles/lcm-logger.dir/glib_util.c.o[0m
+[4.455s] [ 50%] [32mBuilding C object third_part/lcm/liblcm-test/CMakeFiles/lcm-source.dir/lcm-source.c.o[0m
+[4.459s] [ 51%] [32mBuilding C object third_part/lcm/liblcm-test/CMakeFiles/lcm-logfilter.dir/lcm-logfilter.c.o[0m
+[4.461s] [ 52%] [32mBuilding C object third_part/lcm/liblcm-test/CMakeFiles/lcm-example.dir/lcm-example.c.o[0m
+[4.479s] [ 53%] [32mBuilding C object third_part/lcm/liblcm-test/CMakeFiles/lcm-buftest-sender.dir/buftest-sender.c.o[0m
+[4.490s] [ 54%] [32m[1mLinking CXX shared library libserial_cmake.so[0m
+[4.501s] [ 55%] [32m[1mLinking C executable lcm-sink[0m
+[4.530s] [ 56%] [32m[1mLinking C executable lcm-example[0m
+[4.539s] [ 57%] [32m[1mLinking C executable lcm-source[0m
+[4.555s] [ 59%] [32m[1mLinking C executable lcm-gen[0m
+[4.555s] [ 59%] [32m[1mLinking C executable lcm-logplayer[0m
+[4.581s] [ 60%] [32m[1mLinking C executable lcm-tester[0m
+[4.612s] [ 60%] Built target lcm-sink
+[4.623s] [ 60%] Built target lcm-example
+[4.623s] [ 61%] [32m[1mLinking C executable lcm-logfilter[0m
+[4.626s] [ 61%] Built target lcm-source
+[4.631s] [ 63%] [32m[1mLinking C executable lcm-buftest-receiver[0m
+[4.639s] [ 63%] Built target lcm-logplayer
+[4.658s] [ 64%] [32m[1mLinking C executable lcm-buftest-sender[0m
+[4.660s] [ 64%] Built target serial_cmake
+[4.665s] [ 64%] Built target lcm-gen
+[4.669s] [ 64%] Built target lcm-tester
+[4.684s] [ 66%] [32mBuilding CXX object CMakeFiles/hightorque_robot.dir/src/parse_robot_params.cpp.o[0m
+[4.684s] [ 66%] [32mBuilding CXX object CMakeFiles/hightorque_robot.dir/src/serial_driver.cpp.o[0m
+[4.687s] [ 67%] [32mBuilding CXX object CMakeFiles/hightorque_robot.dir/src/hardware/canport.cpp.o[0m
+[4.691s] [ 68%] [32mBuilding CXX object CMakeFiles/hightorque_robot.dir/src/hardware/canboard.cpp.o[0m
+[4.693s] [ 68%] Built target lcm-logfilter
+[4.696s] [ 68%] Built target lcm-buftest-receiver
+[4.696s] [ 69%] [32mBuilding CXX object CMakeFiles/hightorque_robot.dir/src/hardware/motor.cpp.o[0m
+[4.700s] [ 70%] [32mBuilding CXX object CMakeFiles/hightorque_robot.dir/src/hardware/robot.cpp.o[0m
+[4.713s] [ 71%] [32mBuilding CXX object CMakeFiles/hightorque_robot.dir/src/crc/crc16.cpp.o[0m
+[4.713s] [ 72%] [32mBuilding CXX object CMakeFiles/hightorque_robot.dir/src/crc/crc8.cpp.o[0m
+[4.719s] [ 72%] Built target lcm-buftest-sender
+[4.719s] [ 73%] [32mBuilding CXX object CMakeFiles/hightorque_robot.dir/src/panthera/Panthera.cpp.o[0m
+[4.753s] [ 75%] [32m[1mLinking C executable lcm-logger[0m
+[4.879s] [ 75%] Built target lcm-logger
+[8.463s] [ 76%] [32m[1mLinking CXX shared library libhightorque_robot.so[0m
+[8.557s] [ 76%] Built target hightorque_robot
+[8.577s] [ 81%] [32mBuilding CXX object CMakeFiles/0_robot_set_zero.dir/examples/0_robot_set_zero.cpp.o[0m
+[8.577s] [ 81%] [32mBuilding CXX object CMakeFiles/canboard_update.dir/example/canboard_update.cpp.o[0m
+[8.577s] [ 81%] [32mBuilding CXX object CMakeFiles/motor_feedack.dir/example/motor_feedack.cpp.o[0m
+[8.577s] [ 81%] [32mBuilding CXX object CMakeFiles/parse_demo.dir/example/parse_demo.cpp.o[0m
+[8.577s] [ 84%] [32mBuilding CXX object CMakeFiles/motor_run.dir/example/motor_run.cpp.o[0m
+[8.577s] [ 84%] [32mBuilding CXX object CMakeFiles/motor_set_zero.dir/example/motor_set_zero.cpp.o[0m
+[8.577s] [ 85%] [32mBuilding CXX object CMakeFiles/motor_move_zero.dir/example/motor_move_zero.cpp.o[0m
+[8.577s] [ 85%] [32mBuilding CXX object CMakeFiles/motor_msg_subscriber.dir/example/motor_msg_subscriber.cpp.o[0m
+[8.577s] [ 86%] [32mBuilding CXX object CMakeFiles/1_PosVel_control.dir/examples/1_PosVel_control.cpp.o[0m
+[8.578s] [ 85%] [32mBuilding CXX object CMakeFiles/1_PD_control.dir/examples/1_PD_control.cpp.o[0m
+[8.579s] [ 88%] [32mBuilding CXX object CMakeFiles/0_robot_get_state.dir/examples/0_robot_get_state.cpp.o[0m
+[9.099s] [ 89%] [32m[1mLinking CXX executable motor_msg_subscriber[0m
+[9.225s] [ 89%] Built target motor_msg_subscriber
+[9.410s] [ 90%] [32m[1mLinking CXX executable parse_demo[0m
+[9.521s] [ 90%] Built target parse_demo
+[9.720s] [ 91%] [32m[1mLinking CXX executable canboard_update[0m
+[9.751s] [ 92%] [32m[1mLinking CXX executable motor_feedack[0m
+[9.765s] [ 93%] [32m[1mLinking CXX executable motor_run[0m
+[9.783s] [ 94%] [32m[1mLinking CXX executable motor_set_zero[0m
+[9.786s] [ 95%] [32m[1mLinking CXX executable motor_move_zero[0m
+[9.795s] [ 96%] [32m[1mLinking CXX executable 1_PD_control[0m
+[9.858s] [ 96%] Built target canboard_update
+[9.885s] [ 96%] Built target motor_feedack
+[9.888s] [ 96%] Built target motor_move_zero
+[9.900s] [ 96%] Built target motor_run
+[9.903s] [ 97%] [32m[1mLinking CXX executable 1_PosVel_control[0m
+[9.907s] [ 97%] Built target 1_PD_control
+[9.914s] [ 98%] [32m[1mLinking CXX executable 0_robot_get_state[0m
+[9.914s] [ 98%] Built target motor_set_zero
+[9.932s] [100%] [32m[1mLinking CXX executable 0_robot_set_zero[0m
+[9.978s] [100%] Built target 1_PosVel_control
+[9.989s] [100%] Built target 0_robot_get_state
+[10.003s] [100%] Built target 0_robot_set_zero
+[10.014s] Invoked command in '/home/amr-pc/amr_ws/build/hightorque_robot' returned '0': CMAKE_PREFIX_PATH=/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_commander:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_arm_control:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/laser_filters:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amr-pc/amr_ws/build/hightorque_robot -- -j16 -l16
+[10.015s] Invoking command in '/home/amr-pc/amr_ws/build/hightorque_robot': CMAKE_PREFIX_PATH=/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_commander:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_arm_control:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/laser_filters:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amr-pc/amr_ws/build/hightorque_robot
+[10.021s] -- Install configuration: "Release"
+[10.021s] -- Execute custom install script
+[10.022s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/man/man1/lcm-gen.1
+[10.029s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/bin/lcm-logger
+[10.036s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/bin/lcm-logplayer
+[10.043s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/man/man1/lcm-logger.1
+[10.050s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/man/man1/lcm-logplayer.1
+[10.062s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/bin/lcm-sink
+[10.069s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/bin/lcm-source
+[10.076s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/bin/lcm-tester
+[10.082s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/bin/lcm-example
+[10.089s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/bin/lcm-logfilter
+[10.099s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/man/man1/lcm-example.1
+[10.110s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/man/man1/lcm-sink.1
+[10.121s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/man/man1/lcm-source.1
+[10.131s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/man/man1/lcm-tester.1
+[10.141s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/lcm/cmake/lcmConfig.cmake
+[10.152s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/lcm/cmake/lcmConfigVersion.cmake
+[10.164s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/lcm/cmake/lcmUtilities.cmake
+[10.175s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/aclocal/lcm.m4
+[10.187s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/pkgconfig/lcm.pc
+[10.199s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/include/serial/impl/unix.h
+[10.211s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/include/serial/impl/win.h
+[10.221s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/include/serial/serial.h
+[10.228s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/include/serial/v8stdint.h
+[10.235s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/cmake/serial_cmake/serial_cmakeConfig.cmake
+[10.241s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/cmake/hightorque_robot/hightorque_robotConfig.cmake
+[10.248s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/cmake/hightorque_robot/hightorque_robotConfigVersion.cmake
+[10.256s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/hightorque_robot/canboard_update
+[10.265s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/hightorque_robot/motor_feedack
+[10.272s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/hightorque_robot/motor_move_zero
+[10.279s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/hightorque_robot/motor_run
+[10.285s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/hightorque_robot/motor_msg_subscriber
+[10.293s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/hightorque_robot/parse_demo
+[10.301s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/hightorque_robot/motor_set_zero
+[10.310s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/hightorque_robot/0_robot_get_state
+[10.318s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/hightorque_robot/0_robot_set_zero
+[10.326s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/hightorque_robot/1_PD_control
+[10.334s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/lib/hightorque_robot/1_PosVel_control
+[10.342s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/ament_index/resource_index/package_run_dependencies/hightorque_robot
+[10.350s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/ament_index/resource_index/parent_prefix_path/hightorque_robot
+[10.358s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/environment/ament_prefix_path.sh
+[10.365s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/environment/ament_prefix_path.dsv
+[10.373s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/environment/path.sh
+[10.382s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/environment/path.dsv
+[10.390s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/local_setup.bash
+[10.397s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/local_setup.sh
+[10.403s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/local_setup.zsh
+[10.409s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/local_setup.dsv
+[10.416s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/package.dsv
+[10.422s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/ament_index/resource_index/packages/hightorque_robot
+[10.429s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/cmake/hightorque_robotConfig.cmake
+[10.436s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/cmake/hightorque_robotConfig-version.cmake
+[10.443s] -- Symlinking: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/package.xml
+[10.449s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/libhightorque_robot.so.4.4.7
+[10.450s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/libhightorque_robot.so.4
+[10.450s] -- Set non-toolchain portion of runtime path of "/home/amr-pc/amr_ws/install/hightorque_robot/lib/libhightorque_robot.so.4.4.7" to ""
+[10.450s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/libhightorque_robot.so
+[10.450s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/robot.hpp
+[10.451s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/motor.hpp
+[10.451s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/canport.hpp
+[10.451s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/canboard.hpp
+[10.451s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/parse_robot_params.hpp
+[10.451s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/serial_struct.hpp
+[10.451s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/serial_driver.hpp
+[10.451s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/crc8.hpp
+[10.451s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/crc16.hpp
+[10.451s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/Panthera.hpp
+[10.452s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/motor_msg.hpp
+[10.452s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include
+[10.452s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/hardware
+[10.452s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/hardware/canboard.hpp
+[10.452s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/hardware/robot.hpp
+[10.452s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/hardware/motor.hpp
+[10.452s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/hardware/canport.hpp
+[10.452s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include/serial_driver.hpp
+[10.452s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include/serial_struct.hpp
+[10.452s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include/parse_robot_params.hpp
+[10.452s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/panthera
+[10.452s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/panthera/Panthera.hpp
+[10.452s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/crc
+[10.452s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/crc/crc8.hpp
+[10.453s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/crc/crc16.hpp
+[10.453s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/motor_msg
+[10.453s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/motor_msg/motor_msg.hpp
+[10.453s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/robot_param
+[10.453s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/robot_param/Leader.yaml
+[10.453s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/robot_param/Follower_absolute.yaml
+[10.453s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/robot_param/Follower.yaml
+[10.453s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/robot_param/motor_param
+[10.453s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/robot_param/motor_param/6dof_Panthera_params_leader.yaml
+[10.453s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/robot_param/motor_param/motor_6.yaml
+[10.454s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/robot_param/motor_param/6dof_Panthera_params_follower.yaml
+[10.454s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/robot_param/motor_param/motor_1.yaml
+[10.454s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/robot_param/motor_param/robot_config.yaml
+[10.454s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/urdf
+[10.454s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/share/hightorque_robot/urdf/Panthera-HT_description_follower.urdf
+[10.454s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/cmake/hightorque_robot/hightorque_robotTargets.cmake
+[10.454s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/cmake/hightorque_robot/hightorque_robotTargets-release.cmake
+[10.454s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/lcm/cmake/lcmTargets.cmake
+[10.455s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/lcm/cmake/lcmTargets-release.cmake
+[10.455s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/liblcm.a
+[10.455s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/eventlog.h
+[10.455s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm.h
+[10.455s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm_coretypes.h
+[10.456s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm_version.h
+[10.456s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm-cpp.hpp
+[10.456s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm-cpp-impl.hpp
+[10.456s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm_c_namespace.h
+[10.456s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm_export.h
+[10.456s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/liblcm.so.1.5.1
+[10.456s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/liblcm.so.1
+[10.456s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/liblcm.so
+[10.457s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/eventlog.h
+[10.457s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm.h
+[10.457s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm_coretypes.h
+[10.457s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm_version.h
+[10.457s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm-cpp.hpp
+[10.457s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm-cpp-impl.hpp
+[10.457s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm_c_namespace.h
+[10.457s] -- Up-to-date: /home/amr-pc/amr_ws/install/hightorque_robot/include/lcm/lcm_export.h
+[10.457s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/bin/lcm-gen
+[10.458s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/libserial_cmake.so
+[10.458s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/cmake/serial_cmake/serial_cmakeTargets.cmake
+[10.458s] -- Installing: /home/amr-pc/amr_ws/install/hightorque_robot/lib/cmake/serial_cmake/serial_cmakeTargets-release.cmake
+[10.460s] Invoked command in '/home/amr-pc/amr_ws/build/hightorque_robot' returned '0': CMAKE_PREFIX_PATH=/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger:/home/amr-pc/amr_ws/install/panthera_gazebo:/home/amr-pc/amr_ws/install/panthera_commander:/home/amr-pc/amr_ws/install/panthera_bringup:/home/amr-pc/amr_ws/install/with_gripper_config:/home/amr-pc/amr_ws/install/urdf_tutorial:/home/amr-pc/amr_ws/install/sllidar_ros2:/home/amr-pc/amr_ws/install/panthera_arm_control:/home/amr-pc/amr_ws/install/panthera_interfaces:/home/amr-pc/amr_ws/install/panthera_hardware:/home/amr-pc/amr_ws/install/hightorque_robot:/home/amr-pc/amr_ws/install/laser_filters:/home/amr-pc/amr_ws/install/amr_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amr-pc/amr_ws/build/hightorque_robot
