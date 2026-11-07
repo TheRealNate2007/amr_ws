@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/build/panthera_arm_control/ament_cmake_environment_hooks/local_setup.bash

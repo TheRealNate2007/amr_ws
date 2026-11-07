@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/amr-pc/amr_ws/build/hightorque_robot/third_part/lcm/lcm-logger/lcm-logger" "/home/amr-pc/amr_ws/build/hightorque_robot/third_part/lcm/lcm-logger/lcm-logplayer" "TARGETS" "lcm-logger" "lcm-logplayer" "DESTINATION" "bin")

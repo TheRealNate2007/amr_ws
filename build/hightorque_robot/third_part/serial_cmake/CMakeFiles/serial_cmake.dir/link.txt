@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libserial_cmake.so -o libserial_cmake.so CMakeFiles/serial_cmake.dir/src/serial.cc.o CMakeFiles/serial_cmake.dir/src/impl/unix.cc.o CMakeFiles/serial_cmake.dir/src/impl/list_ports/list_ports_linux.cc.o  -lrt -lpthread 

@@ -1,9 +1,0 @@
-source;share/keyboard_cmd_vel/hook/pythonpath.ps1
-source;share/keyboard_cmd_vel/hook/pythonpath.dsv
-source;share/keyboard_cmd_vel/hook/pythonpath.sh
-source;share/keyboard_cmd_vel/hook/ament_prefix_path.ps1
-source;share/keyboard_cmd_vel/hook/ament_prefix_path.dsv
-source;share/keyboard_cmd_vel/hook/ament_prefix_path.sh
-source;../../build/keyboard_cmd_vel/share/keyboard_cmd_vel/hook/pythonpath_develop.ps1
-source;../../build/keyboard_cmd_vel/share/keyboard_cmd_vel/hook/pythonpath_develop.dsv
-source;../../build/keyboard_cmd_vel/share/keyboard_cmd_vel/hook/pythonpath_develop.sh

@@ -1,1 +1,0 @@
-/usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation -O3 -DNDEBUG "CMakeFiles/lcm-buftest-sender.dir/buftest-sender.c.o" -o lcm-buftest-sender  ../lcm/liblcm.a /usr/lib/x86_64-linux-gnu/libglib-2.0.so 

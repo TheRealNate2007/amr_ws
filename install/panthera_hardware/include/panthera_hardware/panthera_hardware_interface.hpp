@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/src/panthera_hardware/include/panthera_hardware/panthera_hardware_interface.hpp

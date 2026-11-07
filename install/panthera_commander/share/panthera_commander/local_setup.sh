@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/build/panthera_commander/ament_cmake_environment_hooks/local_setup.sh

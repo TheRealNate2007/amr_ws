@@ -1,3 +1,0 @@
-/home/amr-pc/amr_ws/install/amr_hardware/lib/libamr_hardware.so
-/home/amr-pc/amr_ws/install/amr_hardware/share/amr_hardware/cmake/export_amr_hardwareExport.cmake
-/home/amr-pc/amr_ws/install/amr_hardware/share/amr_hardware/cmake/export_amr_hardwareExport-noconfig.cmake

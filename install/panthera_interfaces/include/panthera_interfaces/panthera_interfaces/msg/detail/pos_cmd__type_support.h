@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/build/panthera_interfaces/rosidl_generator_c/panthera_interfaces/msg/detail/pos_cmd__type_support.h

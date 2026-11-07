@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/src/laser_filters/test/test_shadow_detector.cpp

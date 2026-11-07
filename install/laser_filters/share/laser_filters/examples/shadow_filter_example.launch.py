@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/src/laser_filters/examples/shadow_filter_example.launch.py

@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/build/panthera_interfaces/rosidl_typesupport_fastrtps_cpp/panthera_interfaces/msg/detail/end_pose_euler__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/build/panthera_interfaces/rosidl_generator_cpp/panthera_interfaces/msg/arm_status.hpp

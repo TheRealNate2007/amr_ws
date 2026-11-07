@@ -1,9 +1,0 @@
-/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger/CMakeFiles/uninstall.dir
-/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger/CMakeFiles/panthera_ht_description_with_finger_uninstall.dir
-/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger/CMakeFiles/test.dir
-/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger/CMakeFiles/edit_cache.dir
-/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger/CMakeFiles/rebuild_cache.dir
-/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger/CMakeFiles/list_install_components.dir
-/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger/CMakeFiles/install.dir
-/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger/CMakeFiles/install/local.dir
-/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger/CMakeFiles/install/strip.dir

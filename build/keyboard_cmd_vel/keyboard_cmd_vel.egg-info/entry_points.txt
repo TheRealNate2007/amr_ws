@@ -1,2 +1,0 @@
-[console_scripts]
-keyboard_cmd_vel_node = keyboard_cmd_vel.keyboard_cmd_vel_node:main

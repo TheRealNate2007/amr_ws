@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/build/hightorque_robot/ament_cmake_core/hightorque_robotConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/src/with_gripper_config/launch/hardware_moveit_rviz.launch.py

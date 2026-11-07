@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/src/sllidar_ros2/launch/sllidar_a1_launch.py

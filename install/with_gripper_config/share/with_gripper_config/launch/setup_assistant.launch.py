@@ -1,1 +1,0 @@
-/home/amr-pc/amr_ws/src/with_gripper_config/launch/setup_assistant.launch.py
