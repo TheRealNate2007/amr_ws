@@ -1,0 +1,56 @@
+[0.027s] Invoking command in '/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amr-pc/amr_ws/src/panthera_ht_description_with_finger -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger
+[0.288s] -- The C compiler identification is GNU 13.3.0
+[0.288s] -- The CXX compiler identification is GNU 13.3.0
+[0.292s] -- Detecting C compiler ABI info
+[0.374s] -- Detecting C compiler ABI info - done
+[0.379s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.379s] -- Detecting C compile features
+[0.380s] -- Detecting C compile features - done
+[0.387s] -- Detecting CXX compiler ABI info
+[0.461s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.468s] -- Detecting CXX compile features
+[0.468s] -- Detecting CXX compile features - done
+[0.609s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.739s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.798s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.916s] -- Configuring done (0.9s)
+[0.919s] -- Generating done (0.0s)
+[0.921s] -- Build files have been written to: /home/amr-pc/amr_ws/build/panthera_ht_description_with_finger
+[0.925s] Invoked command in '/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amr-pc/amr_ws/src/panthera_ht_description_with_finger -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amr-pc/amr_ws/install/panthera_ht_description_with_finger
+[0.926s] Invoking command in '/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amr-pc/amr_ws/build/panthera_ht_description_with_finger -- -j16 -l16
+[0.960s] Invoked command in '/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amr-pc/amr_ws/build/panthera_ht_description_with_finger -- -j16 -l16
+[0.968s] Invoking command in '/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amr-pc/amr_ws/build/panthera_ht_description_with_finger
+[0.976s] -- Install configuration: ""
+[0.976s] -- Execute custom install script
+[0.977s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//config/joint_names_Panthera-HT_description_with_finger.yaml
+[0.985s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//launch/display.launch
+[0.993s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//launch/gazebo.launch
+[1.002s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//meshes/L_finger.STL
+[1.012s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//meshes/R_finger.STL
+[1.021s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//meshes/base_link.STL
+[1.028s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//meshes/link1.STL
+[1.036s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//meshes/link2.STL
+[1.043s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//meshes/link3.STL
+[1.051s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//meshes/link4.STL
+[1.059s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//meshes/link5.STL
+[1.067s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//meshes/link6.STL
+[1.077s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//urdf/Panthera-HT_description_with_finger.csv
+[1.086s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//urdf/Panthera-HT_description_with_finger.urdf
+[1.095s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger//urdf/Panthera-HT_description_with_finger.urdf.xacro
+[1.103s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/ament_index/resource_index/package_run_dependencies/panthera_ht_description_with_finger
+[1.111s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/ament_index/resource_index/parent_prefix_path/panthera_ht_description_with_finger
+[1.119s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/environment/ament_prefix_path.sh
+[1.128s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/environment/ament_prefix_path.dsv
+[1.136s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/environment/path.sh
+[1.144s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/environment/path.dsv
+[1.152s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/local_setup.bash
+[1.160s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/local_setup.sh
+[1.167s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/local_setup.zsh
+[1.175s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/local_setup.dsv
+[1.183s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/package.dsv
+[1.192s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/ament_index/resource_index/packages/panthera_ht_description_with_finger
+[1.200s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/cmake/panthera_ht_description_with_fingerConfig.cmake
+[1.208s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/cmake/panthera_ht_description_with_fingerConfig-version.cmake
+[1.216s] -- Symlinking: /home/amr-pc/amr_ws/install/panthera_ht_description_with_finger/share/panthera_ht_description_with_finger/package.xml
+[1.227s] Invoked command in '/home/amr-pc/amr_ws/build/panthera_ht_description_with_finger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amr-pc/amr_ws/build/panthera_ht_description_with_finger

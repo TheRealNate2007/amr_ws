@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "panthera_interfaces/msg/detail/arm_status__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "panthera_interfaces/msg/detail/arm_status__functions.h"
+#include "panthera_interfaces/msg/detail/arm_status__struct.h"
 #include "panthera_interfaces/msg/detail/arm_status__type_support.h"
+#include "panthera_interfaces/msg/detail/arm_status__functions.h"
 
 #ifdef __cplusplus
 extern "C"

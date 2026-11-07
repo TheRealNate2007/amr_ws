@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-xFgjsr"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-xFgjsr"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WADItS"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WADItS"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -70,13 +70,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-xFgjsr'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WADItS'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7c423/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_7c423.dir/build.make CMakeFiles/cmTC_7c423.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-xFgjsr'
-        Building C object CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2d089/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2d089.dir/build.make CMakeFiles/cmTC_2d089.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WADItS'
+        Building C object CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -86,8 +86,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7c423.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7c423.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cchAAE3D.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d089.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2d089.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFOnaeM.s
         GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -104,15 +104,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: b220a7f1a1f69970d969d254ad9ec166
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7c423.dir/'
-         as -v --64 -o CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o /tmp/cchAAE3D.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d089.dir/'
+         as -v --64 -o CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o /tmp/ccFOnaeM.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_7c423
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c423.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o -o cmTC_7c423 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_2d089
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d089.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o -o cmTC_2d089 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -125,10 +125,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7c423' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7c423.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUrozDL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7c423 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7c423' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7c423.'
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-xFgjsr'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d089' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d089.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKwaVTz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2d089 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d089' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d089.'
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WADItS'
         
       exitCode: 0
   -
@@ -162,13 +162,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-xFgjsr']
+        ignore line: [Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WADItS']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7c423/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_7c423.dir/build.make CMakeFiles/cmTC_7c423.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-xFgjsr']
-        ignore line: [Building C object CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2d089/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2d089.dir/build.make CMakeFiles/cmTC_2d089.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WADItS']
+        ignore line: [Building C object CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -178,8 +178,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7c423.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7c423.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cchAAE3D.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d089.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2d089.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFOnaeM.s]
         ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -196,15 +196,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b220a7f1a1f69970d969d254ad9ec166]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7c423.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o /tmp/cchAAE3D.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d089.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o /tmp/ccFOnaeM.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_7c423]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c423.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o -o cmTC_7c423 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_2d089]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d089.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o -o cmTC_2d089 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -217,13 +217,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7c423' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7c423.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUrozDL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7c423 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d089' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d089.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKwaVTz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2d089 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccUrozDL.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccKwaVTz.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -241,7 +241,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_7c423] ==> ignore
+          arg [cmTC_2d089] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -253,7 +253,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_7c423.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_2d089.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -293,8 +293,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-0JwjTa"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-0JwjTa"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6JbaR3"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6JbaR3"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -302,13 +302,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-0JwjTa'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6JbaR3'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_93e87/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_93e87.dir/build.make CMakeFiles/cmTC_93e87.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-0JwjTa'
-        Building CXX object CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_94ff5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_94ff5.dir/build.make CMakeFiles/cmTC_94ff5.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6JbaR3'
+        Building CXX object CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -318,8 +318,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93e87.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_93e87.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccu74RQe.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94ff5.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_94ff5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccVM1VTU.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -340,15 +340,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 7896445e4990772fdae9dc0659a99266
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93e87.dir/'
-         as -v --64 -o CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccu74RQe.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94ff5.dir/'
+         as -v --64 -o CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVM1VTU.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_93e87
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93e87.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_93e87 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_94ff5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94ff5.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_94ff5 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -361,10 +361,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93e87' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_93e87.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmUXmhg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_93e87 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93e87' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_93e87.'
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-0JwjTa'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94ff5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_94ff5.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpDmjEs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_94ff5 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94ff5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_94ff5.'
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6JbaR3'
         
       exitCode: 0
   -
@@ -404,13 +404,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-0JwjTa']
+        ignore line: [Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6JbaR3']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_93e87/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_93e87.dir/build.make CMakeFiles/cmTC_93e87.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-0JwjTa']
-        ignore line: [Building CXX object CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_94ff5/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_94ff5.dir/build.make CMakeFiles/cmTC_94ff5.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6JbaR3']
+        ignore line: [Building CXX object CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -420,8 +420,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93e87.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_93e87.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccu74RQe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94ff5.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_94ff5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccVM1VTU.s]
         ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -442,15 +442,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 7896445e4990772fdae9dc0659a99266]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93e87.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccu74RQe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94ff5.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVM1VTU.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_93e87]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93e87.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_93e87 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_94ff5]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94ff5.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_94ff5 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -463,13 +463,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93e87' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_93e87.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmUXmhg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_93e87 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94ff5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_94ff5.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpDmjEs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_94ff5 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccmUXmhg.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccpDmjEs.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -487,7 +487,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_93e87] ==> ignore
+          arg [cmTC_94ff5] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -499,7 +499,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_93e87.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_94ff5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -538,8 +538,8 @@ events:
     checks:
       - "Performing Test CMAKE_C_COMPILER_SUPPORTS__std_gnu99"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nTdF5r"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nTdF5r"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nPbJwV"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nPbJwV"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -548,17 +548,17 @@ events:
       variable: "CMAKE_C_COMPILER_SUPPORTS__std_gnu99"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nTdF5r'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nPbJwV'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_00c35/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_00c35.dir/build.make CMakeFiles/cmTC_00c35.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nTdF5r'
-        Building C object CMakeFiles/cmTC_00c35.dir/src.c.o
-        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__std_gnu99  -std=gnu99 -o CMakeFiles/cmTC_00c35.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nTdF5r/src.c
-        Linking C executable cmTC_00c35
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00c35.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_00c35.dir/src.c.o -o cmTC_00c35 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nTdF5r'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4ea2f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4ea2f.dir/build.make CMakeFiles/cmTC_4ea2f.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nPbJwV'
+        Building C object CMakeFiles/cmTC_4ea2f.dir/src.c.o
+        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__std_gnu99  -std=gnu99 -o CMakeFiles/cmTC_4ea2f.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nPbJwV/src.c
+        Linking C executable cmTC_4ea2f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ea2f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4ea2f.dir/src.c.o -o cmTC_4ea2f 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nPbJwV'
         
       exitCode: 0
   -
@@ -574,8 +574,8 @@ events:
     checks:
       - "Performing Test CMAKE_C_COMPILER_SUPPORTS__Wall"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nsL1Lg"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nsL1Lg"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-iv28UP"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-iv28UP"
     cmakeVariables:
       CMAKE_C_FLAGS: " -std=gnu99"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -584,17 +584,17 @@ events:
       variable: "CMAKE_C_COMPILER_SUPPORTS__Wall"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nsL1Lg'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-iv28UP'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9ca9f/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9ca9f.dir/build.make CMakeFiles/cmTC_9ca9f.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nsL1Lg'
-        Building C object CMakeFiles/cmTC_9ca9f.dir/src.c.o
-        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wall  -std=gnu99    -Wall -o CMakeFiles/cmTC_9ca9f.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nsL1Lg/src.c
-        Linking C executable cmTC_9ca9f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ca9f.dir/link.txt --verbose=1
-        /usr/bin/cc  -std=gnu99  CMakeFiles/cmTC_9ca9f.dir/src.c.o -o cmTC_9ca9f 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nsL1Lg'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf029/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bf029.dir/build.make CMakeFiles/cmTC_bf029.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-iv28UP'
+        Building C object CMakeFiles/cmTC_bf029.dir/src.c.o
+        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wall  -std=gnu99    -Wall -o CMakeFiles/cmTC_bf029.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-iv28UP/src.c
+        Linking C executable cmTC_bf029
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf029.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu99  CMakeFiles/cmTC_bf029.dir/src.c.o -o cmTC_bf029 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-iv28UP'
         
       exitCode: 0
   -
@@ -610,8 +610,8 @@ events:
     checks:
       - "Performing Test CMAKE_C_COMPILER_SUPPORTS__Wshadow"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-e0Jp2z"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-e0Jp2z"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-EWVf16"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-EWVf16"
     cmakeVariables:
       CMAKE_C_FLAGS: " -std=gnu99 -Wall"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -620,17 +620,17 @@ events:
       variable: "CMAKE_C_COMPILER_SUPPORTS__Wshadow"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-e0Jp2z'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-EWVf16'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_32219/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_32219.dir/build.make CMakeFiles/cmTC_32219.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-e0Jp2z'
-        Building C object CMakeFiles/cmTC_32219.dir/src.c.o
-        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wshadow  -std=gnu99 -Wall    -Wshadow -o CMakeFiles/cmTC_32219.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-e0Jp2z/src.c
-        Linking C executable cmTC_32219
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32219.dir/link.txt --verbose=1
-        /usr/bin/cc  -std=gnu99 -Wall  CMakeFiles/cmTC_32219.dir/src.c.o -o cmTC_32219 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-e0Jp2z'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_55fe1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_55fe1.dir/build.make CMakeFiles/cmTC_55fe1.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-EWVf16'
+        Building C object CMakeFiles/cmTC_55fe1.dir/src.c.o
+        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wshadow  -std=gnu99 -Wall    -Wshadow -o CMakeFiles/cmTC_55fe1.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-EWVf16/src.c
+        Linking C executable cmTC_55fe1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55fe1.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu99 -Wall  CMakeFiles/cmTC_55fe1.dir/src.c.o -o cmTC_55fe1 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-EWVf16'
         
       exitCode: 0
   -
@@ -646,8 +646,8 @@ events:
     checks:
       - "Performing Test CMAKE_C_COMPILER_SUPPORTS__Wuninitialized"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Udw7ZQ"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Udw7ZQ"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Qz0S2N"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Qz0S2N"
     cmakeVariables:
       CMAKE_C_FLAGS: " -std=gnu99 -Wall -Wshadow"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -656,17 +656,17 @@ events:
       variable: "CMAKE_C_COMPILER_SUPPORTS__Wuninitialized"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Udw7ZQ'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Qz0S2N'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_03fdb/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_03fdb.dir/build.make CMakeFiles/cmTC_03fdb.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Udw7ZQ'
-        Building C object CMakeFiles/cmTC_03fdb.dir/src.c.o
-        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wuninitialized  -std=gnu99 -Wall -Wshadow    -Wuninitialized -o CMakeFiles/cmTC_03fdb.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Udw7ZQ/src.c
-        Linking C executable cmTC_03fdb
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03fdb.dir/link.txt --verbose=1
-        /usr/bin/cc  -std=gnu99 -Wall -Wshadow  CMakeFiles/cmTC_03fdb.dir/src.c.o -o cmTC_03fdb 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Udw7ZQ'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3cfa4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3cfa4.dir/build.make CMakeFiles/cmTC_3cfa4.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Qz0S2N'
+        Building C object CMakeFiles/cmTC_3cfa4.dir/src.c.o
+        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wuninitialized  -std=gnu99 -Wall -Wshadow    -Wuninitialized -o CMakeFiles/cmTC_3cfa4.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Qz0S2N/src.c
+        Linking C executable cmTC_3cfa4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cfa4.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu99 -Wall -Wshadow  CMakeFiles/cmTC_3cfa4.dir/src.c.o -o cmTC_3cfa4 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Qz0S2N'
         
       exitCode: 0
   -
@@ -682,8 +682,8 @@ events:
     checks:
       - "Performing Test CMAKE_C_COMPILER_SUPPORTS__Wunused_variable"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-BuZ1dq"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-BuZ1dq"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IZZAhk"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IZZAhk"
     cmakeVariables:
       CMAKE_C_FLAGS: " -std=gnu99 -Wall -Wshadow -Wuninitialized"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -692,17 +692,17 @@ events:
       variable: "CMAKE_C_COMPILER_SUPPORTS__Wunused_variable"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-BuZ1dq'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IZZAhk'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_38182/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_38182.dir/build.make CMakeFiles/cmTC_38182.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-BuZ1dq'
-        Building C object CMakeFiles/cmTC_38182.dir/src.c.o
-        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wunused_variable  -std=gnu99 -Wall -Wshadow -Wuninitialized    -Wunused-variable -o CMakeFiles/cmTC_38182.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-BuZ1dq/src.c
-        Linking C executable cmTC_38182
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38182.dir/link.txt --verbose=1
-        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized  CMakeFiles/cmTC_38182.dir/src.c.o -o cmTC_38182 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-BuZ1dq'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bdcd9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bdcd9.dir/build.make CMakeFiles/cmTC_bdcd9.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IZZAhk'
+        Building C object CMakeFiles/cmTC_bdcd9.dir/src.c.o
+        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wunused_variable  -std=gnu99 -Wall -Wshadow -Wuninitialized    -Wunused-variable -o CMakeFiles/cmTC_bdcd9.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IZZAhk/src.c
+        Linking C executable cmTC_bdcd9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdcd9.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized  CMakeFiles/cmTC_bdcd9.dir/src.c.o -o cmTC_bdcd9 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IZZAhk'
         
       exitCode: 0
   -
@@ -718,8 +718,8 @@ events:
     checks:
       - "Performing Test CMAKE_C_COMPILER_SUPPORTS__Werror_return_type"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IqXRFK"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IqXRFK"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-uB9ilq"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-uB9ilq"
     cmakeVariables:
       CMAKE_C_FLAGS: " -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -728,17 +728,17 @@ events:
       variable: "CMAKE_C_COMPILER_SUPPORTS__Werror_return_type"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IqXRFK'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-uB9ilq'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_03228/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_03228.dir/build.make CMakeFiles/cmTC_03228.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IqXRFK'
-        Building C object CMakeFiles/cmTC_03228.dir/src.c.o
-        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Werror_return_type  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable    -Werror=return-type -o CMakeFiles/cmTC_03228.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IqXRFK/src.c
-        Linking C executable cmTC_03228
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03228.dir/link.txt --verbose=1
-        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable  CMakeFiles/cmTC_03228.dir/src.c.o -o cmTC_03228 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-IqXRFK'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9acc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a9acc.dir/build.make CMakeFiles/cmTC_a9acc.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-uB9ilq'
+        Building C object CMakeFiles/cmTC_a9acc.dir/src.c.o
+        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Werror_return_type  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable    -Werror=return-type -o CMakeFiles/cmTC_a9acc.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-uB9ilq/src.c
+        Linking C executable cmTC_a9acc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9acc.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable  CMakeFiles/cmTC_a9acc.dir/src.c.o -o cmTC_a9acc 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-uB9ilq'
         
       exitCode: 0
   -
@@ -754,8 +754,8 @@ events:
     checks:
       - "Performing Test CMAKE_C_COMPILER_SUPPORTS__Wno_unused_parameter"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Nbp3em"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Nbp3em"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-ld0vBf"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-ld0vBf"
     cmakeVariables:
       CMAKE_C_FLAGS: " -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -764,17 +764,17 @@ events:
       variable: "CMAKE_C_COMPILER_SUPPORTS__Wno_unused_parameter"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Nbp3em'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-ld0vBf'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_98552/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_98552.dir/build.make CMakeFiles/cmTC_98552.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Nbp3em'
-        Building C object CMakeFiles/cmTC_98552.dir/src.c.o
-        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wno_unused_parameter  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type    -Wno-unused-parameter -o CMakeFiles/cmTC_98552.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Nbp3em/src.c
-        Linking C executable cmTC_98552
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98552.dir/link.txt --verbose=1
-        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type  CMakeFiles/cmTC_98552.dir/src.c.o -o cmTC_98552 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Nbp3em'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a169f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a169f.dir/build.make CMakeFiles/cmTC_a169f.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-ld0vBf'
+        Building C object CMakeFiles/cmTC_a169f.dir/src.c.o
+        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wno_unused_parameter  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type    -Wno-unused-parameter -o CMakeFiles/cmTC_a169f.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-ld0vBf/src.c
+        Linking C executable cmTC_a169f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a169f.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type  CMakeFiles/cmTC_a169f.dir/src.c.o -o cmTC_a169f 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-ld0vBf'
         
       exitCode: 0
   -
@@ -790,8 +790,8 @@ events:
     checks:
       - "Performing Test CMAKE_C_COMPILER_SUPPORTS__Wno_format_zero_length"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-61mZ7O"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-61mZ7O"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-VYf9ZB"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-VYf9ZB"
     cmakeVariables:
       CMAKE_C_FLAGS: " -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -800,17 +800,17 @@ events:
       variable: "CMAKE_C_COMPILER_SUPPORTS__Wno_format_zero_length"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-61mZ7O'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-VYf9ZB'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a4420/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a4420.dir/build.make CMakeFiles/cmTC_a4420.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-61mZ7O'
-        Building C object CMakeFiles/cmTC_a4420.dir/src.c.o
-        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wno_format_zero_length  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter    -Wno-format-zero-length -o CMakeFiles/cmTC_a4420.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-61mZ7O/src.c
-        Linking C executable cmTC_a4420
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4420.dir/link.txt --verbose=1
-        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter  CMakeFiles/cmTC_a4420.dir/src.c.o -o cmTC_a4420 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-61mZ7O'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9246e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9246e.dir/build.make CMakeFiles/cmTC_9246e.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-VYf9ZB'
+        Building C object CMakeFiles/cmTC_9246e.dir/src.c.o
+        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wno_format_zero_length  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter    -Wno-format-zero-length -o CMakeFiles/cmTC_9246e.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-VYf9ZB/src.c
+        Linking C executable cmTC_9246e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9246e.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter  CMakeFiles/cmTC_9246e.dir/src.c.o -o cmTC_9246e 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-VYf9ZB'
         
       exitCode: 0
   -
@@ -826,8 +826,8 @@ events:
     checks:
       - "Performing Test CMAKE_C_COMPILER_SUPPORTS__Wno_stringop_truncation"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LlArd1"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LlArd1"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nW8HcT"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nW8HcT"
     cmakeVariables:
       CMAKE_C_FLAGS: " -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -836,17 +836,17 @@ events:
       variable: "CMAKE_C_COMPILER_SUPPORTS__Wno_stringop_truncation"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LlArd1'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nW8HcT'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2526f/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2526f.dir/build.make CMakeFiles/cmTC_2526f.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LlArd1'
-        Building C object CMakeFiles/cmTC_2526f.dir/src.c.o
-        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wno_stringop_truncation  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length    -Wno-stringop-truncation -o CMakeFiles/cmTC_2526f.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LlArd1/src.c
-        Linking C executable cmTC_2526f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2526f.dir/link.txt --verbose=1
-        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length  CMakeFiles/cmTC_2526f.dir/src.c.o -o cmTC_2526f 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LlArd1'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2904b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2904b.dir/build.make CMakeFiles/cmTC_2904b.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nW8HcT'
+        Building C object CMakeFiles/cmTC_2904b.dir/src.c.o
+        /usr/bin/cc -DCMAKE_C_COMPILER_SUPPORTS__Wno_stringop_truncation  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length    -Wno-stringop-truncation -o CMakeFiles/cmTC_2904b.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nW8HcT/src.c
+        Linking C executable cmTC_2904b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2904b.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length  CMakeFiles/cmTC_2904b.dir/src.c.o -o cmTC_2904b 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-nW8HcT'
         
       exitCode: 0
   -
@@ -862,8 +862,8 @@ events:
     checks:
       - "Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wall"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-74Je1s"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-74Je1s"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Dykd0a"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Dykd0a"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -872,17 +872,17 @@ events:
       variable: "CMAKE_CXX_COMPILER_SUPPORTS__Wall"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-74Je1s'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Dykd0a'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6a8c2/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_6a8c2.dir/build.make CMakeFiles/cmTC_6a8c2.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-74Je1s'
-        Building CXX object CMakeFiles/cmTC_6a8c2.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wall  -Wall -o CMakeFiles/cmTC_6a8c2.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-74Je1s/src.cxx
-        Linking CXX executable cmTC_6a8c2
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a8c2.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_6a8c2.dir/src.cxx.o -o cmTC_6a8c2 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-74Je1s'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b336b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b336b.dir/build.make CMakeFiles/cmTC_b336b.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Dykd0a'
+        Building CXX object CMakeFiles/cmTC_b336b.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wall  -Wall -o CMakeFiles/cmTC_b336b.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Dykd0a/src.cxx
+        Linking CXX executable cmTC_b336b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b336b.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_b336b.dir/src.cxx.o -o cmTC_b336b 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-Dykd0a'
         
       exitCode: 0
   -
@@ -898,8 +898,8 @@ events:
     checks:
       - "Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wshadow"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-TijFVi"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-TijFVi"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-R6w098"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-R6w098"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -908,17 +908,17 @@ events:
       variable: "CMAKE_CXX_COMPILER_SUPPORTS__Wshadow"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-TijFVi'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-R6w098'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d3a79/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_d3a79.dir/build.make CMakeFiles/cmTC_d3a79.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-TijFVi'
-        Building CXX object CMakeFiles/cmTC_d3a79.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wshadow  -Wall    -Wshadow -o CMakeFiles/cmTC_d3a79.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-TijFVi/src.cxx
-        Linking CXX executable cmTC_d3a79
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3a79.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall  CMakeFiles/cmTC_d3a79.dir/src.cxx.o -o cmTC_d3a79 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-TijFVi'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b8ec/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8b8ec.dir/build.make CMakeFiles/cmTC_8b8ec.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-R6w098'
+        Building CXX object CMakeFiles/cmTC_8b8ec.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wshadow  -Wall    -Wshadow -o CMakeFiles/cmTC_8b8ec.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-R6w098/src.cxx
+        Linking CXX executable cmTC_8b8ec
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b8ec.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall  CMakeFiles/cmTC_8b8ec.dir/src.cxx.o -o cmTC_8b8ec 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-R6w098'
         
       exitCode: 0
   -
@@ -934,8 +934,8 @@ events:
     checks:
       - "Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wuninitialized"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-5j1u5v"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-5j1u5v"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jPJjhL"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jPJjhL"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wshadow"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -944,17 +944,17 @@ events:
       variable: "CMAKE_CXX_COMPILER_SUPPORTS__Wuninitialized"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-5j1u5v'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jPJjhL'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_08cc9/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_08cc9.dir/build.make CMakeFiles/cmTC_08cc9.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-5j1u5v'
-        Building CXX object CMakeFiles/cmTC_08cc9.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wuninitialized  -Wall -Wshadow    -Wuninitialized -o CMakeFiles/cmTC_08cc9.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-5j1u5v/src.cxx
-        Linking CXX executable cmTC_08cc9
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08cc9.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wshadow  CMakeFiles/cmTC_08cc9.dir/src.cxx.o -o cmTC_08cc9 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-5j1u5v'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6e3e4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6e3e4.dir/build.make CMakeFiles/cmTC_6e3e4.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jPJjhL'
+        Building CXX object CMakeFiles/cmTC_6e3e4.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wuninitialized  -Wall -Wshadow    -Wuninitialized -o CMakeFiles/cmTC_6e3e4.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jPJjhL/src.cxx
+        Linking CXX executable cmTC_6e3e4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e3e4.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wshadow  CMakeFiles/cmTC_6e3e4.dir/src.cxx.o -o cmTC_6e3e4 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jPJjhL'
         
       exitCode: 0
   -
@@ -970,8 +970,8 @@ events:
     checks:
       - "Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wunused_variable"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6hW3F2"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6hW3F2"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-owi6Un"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-owi6Un"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wshadow -Wuninitialized"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -980,17 +980,17 @@ events:
       variable: "CMAKE_CXX_COMPILER_SUPPORTS__Wunused_variable"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6hW3F2'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-owi6Un'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_72c61/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_72c61.dir/build.make CMakeFiles/cmTC_72c61.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6hW3F2'
-        Building CXX object CMakeFiles/cmTC_72c61.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wunused_variable  -Wall -Wshadow -Wuninitialized    -Wunused-variable -o CMakeFiles/cmTC_72c61.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6hW3F2/src.cxx
-        Linking CXX executable cmTC_72c61
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72c61.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wshadow -Wuninitialized  CMakeFiles/cmTC_72c61.dir/src.cxx.o -o cmTC_72c61 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-6hW3F2'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c5ca1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c5ca1.dir/build.make CMakeFiles/cmTC_c5ca1.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-owi6Un'
+        Building CXX object CMakeFiles/cmTC_c5ca1.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wunused_variable  -Wall -Wshadow -Wuninitialized    -Wunused-variable -o CMakeFiles/cmTC_c5ca1.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-owi6Un/src.cxx
+        Linking CXX executable cmTC_c5ca1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5ca1.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wshadow -Wuninitialized  CMakeFiles/cmTC_c5ca1.dir/src.cxx.o -o cmTC_c5ca1 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-owi6Un'
         
       exitCode: 0
   -
@@ -1006,8 +1006,8 @@ events:
     checks:
       - "Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Werror_return_type"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-aonF1I"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-aonF1I"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-CfEtey"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-CfEtey"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wshadow -Wuninitialized -Wunused-variable"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1016,17 +1016,17 @@ events:
       variable: "CMAKE_CXX_COMPILER_SUPPORTS__Werror_return_type"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-aonF1I'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-CfEtey'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f7854/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f7854.dir/build.make CMakeFiles/cmTC_f7854.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-aonF1I'
-        Building CXX object CMakeFiles/cmTC_f7854.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Werror_return_type  -Wall -Wshadow -Wuninitialized -Wunused-variable    -Werror=return-type -o CMakeFiles/cmTC_f7854.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-aonF1I/src.cxx
-        Linking CXX executable cmTC_f7854
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7854.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable  CMakeFiles/cmTC_f7854.dir/src.cxx.o -o cmTC_f7854 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-aonF1I'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ea488/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ea488.dir/build.make CMakeFiles/cmTC_ea488.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-CfEtey'
+        Building CXX object CMakeFiles/cmTC_ea488.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Werror_return_type  -Wall -Wshadow -Wuninitialized -Wunused-variable    -Werror=return-type -o CMakeFiles/cmTC_ea488.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-CfEtey/src.cxx
+        Linking CXX executable cmTC_ea488
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea488.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable  CMakeFiles/cmTC_ea488.dir/src.cxx.o -o cmTC_ea488 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-CfEtey'
         
       exitCode: 0
   -
@@ -1042,8 +1042,8 @@ events:
     checks:
       - "Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wno_unused_parameter"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-kuzACG"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-kuzACG"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LdqorN"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LdqorN"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1052,17 +1052,17 @@ events:
       variable: "CMAKE_CXX_COMPILER_SUPPORTS__Wno_unused_parameter"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-kuzACG'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LdqorN'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f15a6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f15a6.dir/build.make CMakeFiles/cmTC_f15a6.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-kuzACG'
-        Building CXX object CMakeFiles/cmTC_f15a6.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wno_unused_parameter  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type    -Wno-unused-parameter -o CMakeFiles/cmTC_f15a6.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-kuzACG/src.cxx
-        Linking CXX executable cmTC_f15a6
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f15a6.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type  CMakeFiles/cmTC_f15a6.dir/src.cxx.o -o cmTC_f15a6 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-kuzACG'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dd398/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dd398.dir/build.make CMakeFiles/cmTC_dd398.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LdqorN'
+        Building CXX object CMakeFiles/cmTC_dd398.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wno_unused_parameter  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type    -Wno-unused-parameter -o CMakeFiles/cmTC_dd398.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LdqorN/src.cxx
+        Linking CXX executable cmTC_dd398
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd398.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type  CMakeFiles/cmTC_dd398.dir/src.cxx.o -o cmTC_dd398 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LdqorN'
         
       exitCode: 0
   -
@@ -1078,8 +1078,8 @@ events:
     checks:
       - "Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wno_format_zero_length"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MgEL0s"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MgEL0s"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jwHCkp"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jwHCkp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1088,17 +1088,17 @@ events:
       variable: "CMAKE_CXX_COMPILER_SUPPORTS__Wno_format_zero_length"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MgEL0s'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jwHCkp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_92906/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_92906.dir/build.make CMakeFiles/cmTC_92906.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MgEL0s'
-        Building CXX object CMakeFiles/cmTC_92906.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wno_format_zero_length  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter    -Wno-format-zero-length -o CMakeFiles/cmTC_92906.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MgEL0s/src.cxx
-        Linking CXX executable cmTC_92906
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92906.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter  CMakeFiles/cmTC_92906.dir/src.cxx.o -o cmTC_92906 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MgEL0s'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46c28/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_46c28.dir/build.make CMakeFiles/cmTC_46c28.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jwHCkp'
+        Building CXX object CMakeFiles/cmTC_46c28.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wno_format_zero_length  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter    -Wno-format-zero-length -o CMakeFiles/cmTC_46c28.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jwHCkp/src.cxx
+        Linking CXX executable cmTC_46c28
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46c28.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter  CMakeFiles/cmTC_46c28.dir/src.cxx.o -o cmTC_46c28 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-jwHCkp'
         
       exitCode: 0
   -
@@ -1114,8 +1114,8 @@ events:
     checks:
       - "Performing Test CMAKE_CXX_COMPILER_SUPPORTS__Wno_stringop_truncation"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-QTobIH"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-QTobIH"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LzZgn6"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LzZgn6"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1124,17 +1124,17 @@ events:
       variable: "CMAKE_CXX_COMPILER_SUPPORTS__Wno_stringop_truncation"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-QTobIH'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LzZgn6'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50899/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_50899.dir/build.make CMakeFiles/cmTC_50899.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-QTobIH'
-        Building CXX object CMakeFiles/cmTC_50899.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wno_stringop_truncation  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length    -Wno-stringop-truncation -o CMakeFiles/cmTC_50899.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-QTobIH/src.cxx
-        Linking CXX executable cmTC_50899
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50899.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length  CMakeFiles/cmTC_50899.dir/src.cxx.o -o cmTC_50899 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-QTobIH'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d1e20/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d1e20.dir/build.make CMakeFiles/cmTC_d1e20.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LzZgn6'
+        Building CXX object CMakeFiles/cmTC_d1e20.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_CXX_COMPILER_SUPPORTS__Wno_stringop_truncation  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length    -Wno-stringop-truncation -o CMakeFiles/cmTC_d1e20.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LzZgn6/src.cxx
+        Linking CXX executable cmTC_d1e20
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1e20.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length  CMakeFiles/cmTC_d1e20.dir/src.cxx.o -o cmTC_d1e20 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-LzZgn6'
         
       exitCode: 0
   -
@@ -1148,8 +1148,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-1cEAvg"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-1cEAvg"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-4nVuKi"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-4nVuKi"
     cmakeVariables:
       CMAKE_C_FLAGS: " -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1158,17 +1158,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-1cEAvg'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-4nVuKi'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d2af4/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_d2af4.dir/build.make CMakeFiles/cmTC_d2af4.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-1cEAvg'
-        Building C object CMakeFiles/cmTC_d2af4.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  -o CMakeFiles/cmTC_d2af4.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-1cEAvg/src.c
-        Linking C executable cmTC_d2af4
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2af4.dir/link.txt --verbose=1
-        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  CMakeFiles/cmTC_d2af4.dir/src.c.o -o cmTC_d2af4 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-1cEAvg'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_58190/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_58190.dir/build.make CMakeFiles/cmTC_58190.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-4nVuKi'
+        Building C object CMakeFiles/cmTC_58190.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  -o CMakeFiles/cmTC_58190.dir/src.c.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-4nVuKi/src.c
+        Linking C executable cmTC_58190
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58190.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu99 -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  CMakeFiles/cmTC_58190.dir/src.c.o -o cmTC_58190 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-4nVuKi'
         
       exitCode: 0
   -
@@ -1183,8 +1183,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WIlVqq"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WIlVqq"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-qwux45"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-qwux45"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1194,17 +1194,17 @@ events:
       variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WIlVqq'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-qwux45'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_091f7/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_091f7.dir/build.make CMakeFiles/cmTC_091f7.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WIlVqq'
-        Building CXX object CMakeFiles/cmTC_091f7.dir/src.cxx.o
-        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_091f7.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WIlVqq/src.cxx
-        Linking CXX executable cmTC_091f7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_091f7.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  CMakeFiles/cmTC_091f7.dir/src.cxx.o -o cmTC_091f7 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-WIlVqq'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b1dac/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b1dac.dir/build.make CMakeFiles/cmTC_b1dac.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-qwux45'
+        Building CXX object CMakeFiles/cmTC_b1dac.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_b1dac.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-qwux45/src.cxx
+        Linking CXX executable cmTC_b1dac
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1dac.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  CMakeFiles/cmTC_b1dac.dir/src.cxx.o -o cmTC_b1dac 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-qwux45'
         
       exitCode: 0
   -
@@ -1219,8 +1219,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-x9vFnY"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-x9vFnY"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-F5GlWN"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-F5GlWN"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1230,17 +1230,17 @@ events:
       variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-x9vFnY'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-F5GlWN'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3a0b4/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_3a0b4.dir/build.make CMakeFiles/cmTC_3a0b4.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-x9vFnY'
-        Building CXX object CMakeFiles/cmTC_3a0b4.dir/src.cxx.o
-        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_3a0b4.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-x9vFnY/src.cxx
-        Linking CXX executable cmTC_3a0b4
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a0b4.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  CMakeFiles/cmTC_3a0b4.dir/src.cxx.o -o cmTC_3a0b4 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-x9vFnY'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3ff3a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3ff3a.dir/build.make CMakeFiles/cmTC_3ff3a.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-F5GlWN'
+        Building CXX object CMakeFiles/cmTC_3ff3a.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_3ff3a.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-F5GlWN/src.cxx
+        Linking CXX executable cmTC_3ff3a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ff3a.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  CMakeFiles/cmTC_3ff3a.dir/src.cxx.o -o cmTC_3ff3a 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-F5GlWN'
         
       exitCode: 0
   -
@@ -1255,8 +1255,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
     directories:
-      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-XJ6nvN"
-      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-XJ6nvN"
+      source: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MdrHyN"
+      binary: "/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MdrHyN"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1266,24 +1266,24 @@ events:
       variable: "COMPILER_HAS_DEPRECATED_ATTR"
       cached: true
       stdout: |
-        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-XJ6nvN'
+        Change Dir: '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MdrHyN'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b250e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b250e.dir/build.make CMakeFiles/cmTC_b250e.dir/build
-        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-XJ6nvN'
-        Building CXX object CMakeFiles/cmTC_b250e.dir/src.cxx.o
-        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  -fPIE -o CMakeFiles/cmTC_b250e.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-XJ6nvN/src.cxx
-        /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-XJ6nvN/src.cxx: In function ‘int main()’:
-        /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-XJ6nvN/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5230f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5230f.dir/build.make CMakeFiles/cmTC_5230f.dir/build
+        gmake[1]: Entering directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MdrHyN'
+        Building CXX object CMakeFiles/cmTC_5230f.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  -fPIE -o CMakeFiles/cmTC_5230f.dir/src.cxx.o -c /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MdrHyN/src.cxx
+        /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MdrHyN/src.cxx: In function ‘int main()’:
+        /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MdrHyN/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
             2 |     int main() { return somefunc();}
               |                         ~~~~~~~~^~
-        /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-XJ6nvN/src.cxx:1:37: note: declared here
+        /home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MdrHyN/src.cxx:1:37: note: declared here
             1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
               |                                     ^~~~~~~~
-        Linking CXX executable cmTC_b250e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b250e.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  CMakeFiles/cmTC_b250e.dir/src.cxx.o -o cmTC_b250e 
-        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-XJ6nvN'
+        Linking CXX executable cmTC_5230f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5230f.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wshadow -Wuninitialized -Wunused-variable -Werror=return-type -Wno-unused-parameter -Wno-format-zero-length -Wno-stringop-truncation  CMakeFiles/cmTC_5230f.dir/src.cxx.o -o cmTC_5230f 
+        gmake[1]: Leaving directory '/home/amr-pc/amr_ws/build/hightorque_robot/CMakeFiles/CMakeScratch/TryCompile-MdrHyN'
         
       exitCode: 0
 ...

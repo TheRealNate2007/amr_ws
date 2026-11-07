@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
-#include "panthera_interfaces/msg/detail/pos_cmd__struct.h"
 #include "panthera_interfaces/msg/detail/pos_cmd__type_support.h"
+#include "panthera_interfaces/msg/detail/pos_cmd__struct.h"
 #include "panthera_interfaces/msg/detail/pos_cmd__functions.h"
 
 #ifdef __cplusplus

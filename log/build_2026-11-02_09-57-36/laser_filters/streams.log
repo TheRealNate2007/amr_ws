@@ -1,0 +1,179 @@
+[0.269s] Invoking command in '/home/amr-pc/amr_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amr-pc/amr_ws/src/laser_filters -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amr-pc/amr_ws/install/laser_filters
+[0.309s] -- The C compiler identification is GNU 13.3.0
+[0.351s] -- The CXX compiler identification is GNU 13.3.0
+[0.363s] -- Detecting C compiler ABI info
+[0.433s] -- Detecting C compiler ABI info - done
+[0.441s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.441s] -- Detecting C compile features
+[0.441s] -- Detecting C compile features - done
+[0.449s] -- Detecting CXX compiler ABI info
+[0.531s] -- Detecting CXX compiler ABI info - done
+[0.537s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.537s] -- Detecting CXX compile features
+[0.538s] -- Detecting CXX compile features - done
+[0.584s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.717s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.777s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.945s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.959s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.974s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.100s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.104s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.184s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.200s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.653s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.655s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.655s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.803s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/laser_filters` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.817s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.824s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.029s] -- Found Threads: TRUE  
+[2.058s] -- Found launch_testing_ament_cmake: 3.4.12 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[2.063s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.261s] -- Found PythonExtra: /usr/bin/python3  
+[2.262s] -- Configuring done (2.0s)
+[2.337s] -- Generating done (0.1s)
+[2.353s] -- Build files have been written to: /home/amr-pc/amr_ws/build/laser_filters
+[2.370s] Invoked command in '/home/amr-pc/amr_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amr-pc/amr_ws/src/laser_filters -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amr-pc/amr_ws/install/laser_filters
+[2.371s] Invoking command in '/home/amr-pc/amr_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amr-pc/amr_ws/build/laser_filters -- -j16 -l16
+[2.415s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.415s] [  8%] [32mBuilding CXX object CMakeFiles/scan_to_cloud_filter_chain.dir/rclcpp_components/node_main_scan_to_cloud_filter_chain.cpp.o[0m
+[2.415s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.415s] [ 20%] [32mBuilding CXX object CMakeFiles/scan_to_scan_filter_chain.dir/rclcpp_components/node_main_scan_to_scan_filter_chain.cpp.o[0m
+[2.415s] [ 20%] [32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/laser_scan_filters.cpp.o[0m
+[3.065s] [ 24%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.303s] [ 24%] Built target gtest_main
+[5.942s] [ 28%] [32m[1mLinking CXX executable scan_to_cloud_filter_chain[0m
+[6.116s] [ 32%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.163s] [ 36%] [32m[1mLinking CXX executable scan_to_scan_filter_chain[0m
+[6.170s] [ 36%] Built target scan_to_cloud_filter_chain
+[6.233s] [ 36%] Built target gtest
+[6.265s] [ 40%] [32mBuilding CXX object CMakeFiles/test_scan_filter_chain.dir/test/test_scan_filter_chain.cpp.o[0m
+[6.352s] [ 40%] Built target scan_to_scan_filter_chain
+[12.828s] [ 44%] [32m[1mLinking CXX executable test_scan_filter_chain[0m
+[13.034s] [ 44%] Built target test_scan_filter_chain
+[16.276s] [ 48%] [32m[1mLinking CXX shared library liblaser_scan_filters.so[0m
+[17.221s] [ 48%] Built target laser_scan_filters
+[17.258s] [ 52%] [32mBuilding CXX object CMakeFiles/test_scan_shadows_filter.dir/test/test_scan_shadows_filter.cpp.o[0m
+[17.271s] [ 56%] [32mBuilding CXX object CMakeFiles/test_angular_bounds_filter.dir/test/test_angular_bounds_filter.cpp.o[0m
+[17.275s] [ 60%] [32mBuilding CXX object CMakeFiles/test_shadow_detector.dir/test/test_shadow_detector.cpp.o[0m
+[17.276s] [ 64%] [32mBuilding CXX object CMakeFiles/test_speckle_filter.dir/test/test_speckle_filter.cpp.o[0m
+[17.277s] [ 68%] [32mBuilding CXX object CMakeFiles/laser_filter_chains.dir/src/scan_to_cloud_filter_chain.cpp.o[0m
+[17.279s] [ 72%] [32mBuilding CXX object CMakeFiles/laser_filter_chains.dir/src/scan_to_scan_filter_chain.cpp.o[0m
+[19.497s] [ 76%] [32m[1mLinking CXX executable test_shadow_detector[0m
+[20.076s] [ 76%] Built target test_shadow_detector
+[22.048s] [ 80%] [32m[1mLinking CXX executable test_speckle_filter[0m
+[22.437s] [ 80%] Built target test_speckle_filter
+[22.949s] [ 84%] [32m[1mLinking CXX executable test_scan_shadows_filter[0m
+[23.356s] [ 84%] Built target test_scan_shadows_filter
+[24.159s] [ 88%] [32m[1mLinking CXX executable test_angular_bounds_filter[0m
+[24.500s] [ 88%] Built target test_angular_bounds_filter
+[31.027s] [ 92%] [32m[1mLinking CXX shared library liblaser_filter_chains.so[0m
+[31.488s] [ 92%] Built target laser_filter_chains
+[31.509s] [ 96%] [32mBuilding CXX object CMakeFiles/generic_laser_filter_node.dir/src/generic_laser_filter_node.cpp.o[0m
+[38.904s] [100%] [32m[1mLinking CXX executable generic_laser_filter_node[0m
+[39.243s] [100%] Built target generic_laser_filter_node
+[39.254s] Invoked command in '/home/amr-pc/amr_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amr-pc/amr_ws/build/laser_filters -- -j16 -l16
+[39.255s] Invoking command in '/home/amr-pc/amr_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amr-pc/amr_ws/build/laser_filters
+[39.261s] -- Install configuration: ""
+[39.261s] -- Execute custom install script
+[39.262s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain
+[39.269s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain
+[39.276s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters//laser_filters_plugins.xml
+[39.283s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/angular_bounds_filter.h
+[39.290s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/angular_bounds_filter_in_place.h
+[39.297s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/array_filter.h
+[39.305s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/binning_filter.h
+[39.313s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/box_filter.h
+[39.321s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/footprint_filter.h
+[39.328s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/intensity_filter.h
+[39.335s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/interpolation_filter.h
+[39.341s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/median_filter.h
+[39.348s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/median_spatial_filter.h
+[39.355s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/polygon_filter.h
+[39.362s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/range_filter.h
+[39.370s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/scan_blob_filter.h
+[39.378s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/scan_mask_filter.h
+[39.384s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/scan_shadow_detector.h
+[39.392s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/scan_shadows_filter.h
+[39.398s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/sector_filter.h
+[39.407s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/include/laser_filters/speckle_filter.h
+[39.414s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/library_path.sh
+[39.421s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/library_path.dsv
+[39.428s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/lib/liblaser_scan_filters.so
+[39.435s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/lib/liblaser_filter_chains.so
+[39.443s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/lib/laser_filters/generic_laser_filter_node
+[39.452s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/angular_filter_example.launch.py
+[39.458s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/angular_filter_example.yaml
+[39.467s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/angular_filter_in_place_example.launch.py
+[39.474s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/angular_filter_in_place_example.yaml
+[39.481s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/bin_filter_example.launch.py
+[39.488s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/bin_filter_example.yaml
+[39.495s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.launch.py
+[39.502s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.yaml
+[39.510s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.launch.py
+[39.517s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.yaml
+[39.524s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.launch.py
+[39.532s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.yaml
+[39.540s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.launch.py
+[39.548s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.yaml
+[39.556s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.launch.py
+[39.563s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.yaml
+[39.569s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter.launch.py
+[39.576s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter.launch.xml
+[39.583s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter_example.yaml
+[39.589s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.launch.py
+[39.596s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.yaml
+[39.603s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.launch.py
+[39.611s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.yaml
+[39.618s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/polygon_filter_example.launch.py
+[39.626s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/polygon_filter_example.yaml
+[39.634s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.launch.py
+[39.642s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.yaml
+[39.649s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/scan_blob_filter_example.launch.py
+[39.657s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/scan_blob_filter_example.yaml
+[39.664s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/sector_filter_example.launch.py
+[39.671s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/sector_filter_example.yaml
+[39.677s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.launch.py
+[39.685s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.yaml
+[39.692s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.launch
+[39.700s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.yaml
+[39.708s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/__pycache__/test_polygon_filter.test.cpython-312.pyc
+[39.715s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/__pycache__/test_speckle_filter.test.cpython-312.pyc
+[39.723s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/fake_laser.py
+[39.731s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_angular_bounds_filter.cpp
+[39.738s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_polygon_filter.test.py
+[39.745s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_polygon_filter.yaml
+[39.751s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.cpp
+[39.758s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.launch
+[39.766s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.yaml
+[39.773s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_scan_shadows_filter.cpp
+[39.780s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_shadow_detector.cpp
+[39.787s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.cpp
+[39.795s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.test.py
+[39.802s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.yaml
+[39.809s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/ament_index/resource_index/package_run_dependencies/laser_filters
+[39.816s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/ament_index/resource_index/parent_prefix_path/laser_filters
+[39.825s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.sh
+[39.832s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.dsv
+[39.839s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/path.sh
+[39.846s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/environment/path.dsv
+[39.853s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/local_setup.bash
+[39.861s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/local_setup.sh
+[39.868s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/local_setup.zsh
+[39.876s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/local_setup.dsv
+[39.883s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/package.dsv
+[39.890s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/ament_index/resource_index/packages/laser_filters
+[39.897s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/ament_index/resource_index/filters__pluginlib__plugin/laser_filters
+[39.905s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/ament_index/resource_index/rclcpp_components/laser_filters
+[39.912s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.919s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.927s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_libraries-extras.cmake
+[39.935s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig.cmake
+[39.942s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig-version.cmake
+[39.950s] -- Symlinking: /home/amr-pc/amr_ws/install/laser_filters/share/laser_filters/package.xml
+[39.959s] Invoked command in '/home/amr-pc/amr_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr-pc/amr_ws/install/bringups:/home/amr-pc/amr_ws/install/keyboard_cmd_vel:/home/amr-pc/amr_ws/install/amr_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amr-pc/amr_ws/build/laser_filters

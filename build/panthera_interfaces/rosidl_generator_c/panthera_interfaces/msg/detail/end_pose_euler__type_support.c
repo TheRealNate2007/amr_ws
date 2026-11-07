@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
+#include "panthera_interfaces/msg/detail/end_pose_euler__struct.h"
 #include "panthera_interfaces/msg/detail/end_pose_euler__type_support.h"
 #include "panthera_interfaces/msg/detail/end_pose_euler__functions.h"
-#include "panthera_interfaces/msg/detail/end_pose_euler__struct.h"
 
 #ifdef __cplusplus
 extern "C"

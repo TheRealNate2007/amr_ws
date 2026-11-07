@@ -1,6 +1,0 @@
-1:test_scan_filter_chain
-3:test_speckle_filter
-4:test_scan_shadows_filter
-5:test_angular_bounds_filter
-6:test_test_polygon_filter.test.py
-7:test_test_speckle_filter.test.py

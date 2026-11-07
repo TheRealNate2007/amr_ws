@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
-#include "panthera_interfaces/srv/detail/go_zero__struct.h"
-#include "panthera_interfaces/srv/detail/go_zero__functions.h"
 #include "panthera_interfaces/srv/detail/go_zero__type_support.h"
+#include "panthera_interfaces/srv/detail/go_zero__functions.h"
+#include "panthera_interfaces/srv/detail/go_zero__struct.h"
 
 #ifdef __cplusplus
 extern "C"
