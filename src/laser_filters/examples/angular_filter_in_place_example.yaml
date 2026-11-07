@@ -1,0 +1,11 @@
+scan_to_scan_filter_chain:
+  ros__parameters:
+    filter1:
+      name: angle_in_place
+      type: laser_filters/LaserScanAngularBoundsFilterInPlace
+      params:
+        lower_angle: -0.12
+        upper_angle: 0.12
+        replace_with_nan: true
+        wrap_angle: true
+        
